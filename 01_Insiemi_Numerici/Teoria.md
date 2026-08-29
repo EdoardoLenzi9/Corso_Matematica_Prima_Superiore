@@ -12,7 +12,10 @@
 
 ## 🚀 Esempio
 
-L'insieme `semi_carte_poker` $\triangleq $ { semi di carte da gioco / usati nel poker } $\triangleq $ { ♥️, ♦️, ♠️, ♣️ } 
+$1$
+$$1$$
+
+L'insieme `semi_carte_poker` $ \triangleq $ { semi di carte da gioco / usati nel poker } $\triangleq $ { ♥️, ♦️, ♠️, ♣️ } 
 
 * Nome: `semi_carte_poker`
 * Simbolo: 🃏
