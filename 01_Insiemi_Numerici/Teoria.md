@@ -52,7 +52,7 @@ L'insieme `sport_da_racchetta` ...
 
 >💡 Idea: posso pensare quindi di definire in modo estensivo un insieme elencando uno ad uno i suoi elementi. In questo modo potrei definire anche insiemi eterogenei. 
 
-$$ A=\{2,gatto, \pi, \triangle \} $$
+$$ A = \lbrace 2, gatto, \pi, \triangle \rbrace $$
 
 > Sara' possibile definire insiemi infiniti $\infty$ in questo modo?
 
