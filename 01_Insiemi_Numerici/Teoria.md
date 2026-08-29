@@ -12,35 +12,25 @@
 
 ## 🚀 Esempio
 
-$\{\}$
-$\{$
-$\{ $
-$\}$
-$\left\{$
-$\right\}$
-$\lbrace$ {
-$\rbrace$ }
-
-
 L'insieme `semi_carte_poker` $\triangleq$ { semi di carte da gioco / usati nel poker } $\triangleq$ { ♥️, ♦️, ♠️, ♣️ } 
 
 * Nome: `semi_carte_poker`
 * Simbolo: 🃏
-* Definizione: $\{$ semi di carte da gioco / usati nel poker $\}$
+* Definizione: { semi di carte da gioco / usati nel poker }
 * Proprieta' comune: semi usati nel `poker`
-* Elementi: $\{$ ♥️, ♦️, ♠️, ♣️ $\}$
+* Elementi: { ♥️, ♦️, ♠️, ♣️ }
 * Primo elemento: ♥️
 * Ultimo elemento: ♣️
 
 ## 🚀 Esempio
 
-L'insieme `lettere_maiuscole` $\triangleq \{$ ??? $\}$ $\triangleq \{$ ?, ?, ? $\}$ 
+L'insieme `lettere_maiuscole` $\triangleq \{ ??? \} \triangleq \{ ?, ?, ? \}$ 
 
 * Nome: `lettere_maiuscole`
 * Simbolo: 🅰
-* Definizione: $\{$ ??? $\}$
+* Definizione: $\{ ??? \}$
 * Proprieta' comune: ???
-* Elementi: $\{$ ?, ?, ? $\}$
+* Elementi: $\{ ?, ?, ? \}$
 * Primo elemento: ?
 * Ultimo elemento: ?
 
@@ -68,7 +58,7 @@ $$ A=\{2,gatto, \pi, \triangle \} $$
 
 # 📌 $\in$ Appartenenza
 
-Dato l'insieme `semi_carte_poker` = $\{$ ♥️, ♦️, ♠️, ♣️ $\}$ 
+Dato l'insieme `semi_carte_poker` = { ♥️, ♦️, ♠️, ♣️ } 
 
 L'elemento ♦️ appartiene all'insieme `semi_carte_poker`?
 
@@ -104,13 +94,13 @@ L'elemento 🗡️ appartiene all'insieme `semi_carte_poker`?
 
 ## 🚀 Esempio
 
-L'insieme `` $\triangleq \{$ ??? $\}$ $\triangleq \{$ ?, ?, ? $\}$ 
+L'insieme `` $\triangleq \{ ??? \} \triangleq \{ ?, ?, ? \}$ 
 
 * Nome: `lettere_maiuscole`
 * Simbolo: 🅰
-* Definizione: $\{$ ??? $\}$
+* Definizione: $\{ ??? \}$
 * Proprieta' comune: ???
-* Elementi: $\{$ ?, ?, ? $\}$
+* Elementi: $\{ ?, ?, ? \}$
 * Primo elemento: ?
 * Ultimo elemento: ?
 
