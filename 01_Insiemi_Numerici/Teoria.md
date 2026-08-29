@@ -19,8 +19,6 @@ L'insieme `semi_carte_poker` $\triangleq$ { semi di carte da gioco / usati nel p
 * Definizione: { semi di carte da gioco / usati nel poker }
 * Proprieta' comune: semi usati nel `poker`
 * Elementi: { ♥️, ♦️, ♠️, ♣️ }
-* Primo elemento: ♥️
-* Ultimo elemento: ♣️
 
 ## 🚀 Esempio
 
@@ -31,12 +29,65 @@ L'insieme `lettere_maiuscole` $\triangleq \{ ??? \} \triangleq \{ ?, ?, ? \}$
 * Definizione: $\{ ??? \}$
 * Proprieta' comune: ???
 * Elementi: $\{ ?, ?, ? \}$
-* Primo elemento: ?
-* Ultimo elemento: ?
 
 ## 🚀 Esempio
 
 L'insieme `sport_da_racchetta` ...
+
+> 🤔 Domanda: qual'e' il primo e l'ultimo elemento dell'insieme?
+
+# 📌 Uguaglianza
+
+Consideriamo gli insiemi `A` e `B`
+
+$$A = \{1,2,3\} $$
+$$B = \{2,3,1\} $$
+
+> 🤔 Domanda: questi due insiemi sono uguali ( $B = A$ )? 
+
+# 📌 Equivalenza (Opzionale)
+
+Consideriamo gli insiemi `A` e `B`
+
+$$A = \{1,2,3\} $$
+$$B = \{1,4,9\} $$
+
+> 🤔 Domanda: questi due insiemi sono equivalenti? ( $B \sim A$ )? 
+
+> 🤏 Definizione: due insiemi si dicono `equivalenti` se esiste una 
+> corrispondenza biunivoca fra i loro elementi.
+
+$$ A\sim B \iff \exists\ f:A\rightarrow B\ \mid \text{f sia biiettiva}$$
+
+In questo caso $f(x) = x^2$, visto che questa funzione esiste ed e' biiettiva
+possiamo dire che $A\sim B$
+
+# 📌 Cardinalita'
+
+> 🤏 Definizione: La `cardinalita'` di un insieme e' il numero di elementi che esso contiene
+
+Per esempio la cardinalita' dell'insieme $A$ = \{1,2,4\}$ vale `3`; formalmente $|A| = 3$.
+Mentre $|\{ ♥️, ♦️, ♠️, ♣️ \}| = 4$.
+
+> 🤔 Domanda: quanto vale $|\mathbb N|$ ?
+
+# 📌 Insiemi annidati
+
+Un elemento di un insieme puo' essere a sua volta un insieme; in questo caso si parla di insiemi annidati:
+
+$$A = \{ \{ 1 \}, \{ 2, 3 \}, \{ 4, \{ 5 \} \} \}$$
+
+> 🤔 Domanda: quanto vale $| A |$ ?
+
+Gli elementi di A sono: `{1}` `{2,3}` `{4,{5}}`
+
+Quindi:
+
+$$ \{1\}\in A $$ $$ \{2,3\}\in A $$ $$ \{4,\{5\}\}\in A. $$
+
+Ma:
+
+$$1\not\in A$$
 
 # 📌 Definizione di insieme
 
@@ -54,41 +105,40 @@ L'insieme `sport_da_racchetta` ...
 
 $$ A = \lbrace 2, gatto, \pi, \triangle \rbrace $$
 
-> Sara' possibile definire insiemi infiniti $\infty$ in questo modo?
+> 🤔 Domanda: sara' possibile definire insiemi infiniti $\infty$ in questo modo?
 
 # 📌 $\in$ Appartenenza
 
 Dato l'insieme `semi_carte_poker` = { ♥️, ♦️, ♠️, ♣️ } 
 
-L'elemento ♦️ appartiene all'insieme `semi_carte_poker`?
+> 🤔 Domanda: l'elemento ♦️ appartiene all'insieme `semi_carte_poker`?
 
 * ♦️ $\in$ `semi_carte_poker`
 * "l'elemento ♦️ appartiene all'insieme `semi_carte_poker`"
 
-L'elemento 🗡️ appartiene all'insieme `semi_carte_poker`?
+> 🤔 Domanda: l'elemento 🗡️ appartiene all'insieme `semi_carte_poker`?
 
 * 🗡️ $\not\in$ `semi_carte_poker`
 * "l'elemento 🗡️ **non** appartiene all'insieme `semi_carte_poker`"
 
-
-
-
-
-
 # 📌 Definizione induttiva
 
-> 💡 Idea: la **definizione** di insiemi omogenei si basa sulle **proprieta' comuni** 
-> degli elementi. Questo e' un metodo elegante che permette con una `breve definizione` di definire `insiemi molto grandi` (talvolta `infiniti` $\infty$).
+> "_L'insieme dei Numeri Naturali $\mathbb N$ ha origine da `0`; ogni numero naturale possiede un `successore`, ottenuto `aggiungendo 1`_"
 
-## 🚀 Esempio
+$$0\in\mathbb N$$
+$$n\in\mathbb N\Rightarrow S(n)\in\mathbb N$$
+$$S(n) \triangleq n + 1$$
 
 
 
-# 📌 Insieme eterogeneo
 
-> 💡 Idea: posso definire un insieme in modo estensivo dichiarando `uno ad uno` tutti 
-> i suoi elementi. Questo e' un metodo meno elegante ma permette di definire insiemi 
-> eterogenei. 
+
+
+
+
+
+
+
 
 ## 🚀 Esempio
 
@@ -125,7 +175,7 @@ I principali insiemi numerici sono:
 
 | Simbolo | Nome |
 |---|---|
-| $$\mathbb N$$ | Naturali |
+| $c | Naturali |
 | $$\mathbb Z$$ | Interi |
 | $$\mathbb Q$$ | Razionali |
 | $$\mathbb R$$ | Reali |
