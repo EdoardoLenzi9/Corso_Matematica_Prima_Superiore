@@ -14,6 +14,8 @@
 
 $1 \triangleq 2$
 $$1 \triangleq 2$$
+$ \triangleq $
+$\triangleq$
 
 L'insieme `semi_carte_poker` $ \triangleq $ { semi di carte da gioco / usati nel poker } $\triangleq $ { ♥️, ♦️, ♠️, ♣️ } 
 
