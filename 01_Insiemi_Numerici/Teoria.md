@@ -8,11 +8,11 @@
 
 # 📌 Insieme
 
-🤏 Definizione intuitiva: **Insieme** $\triangleq$ collezione di **elementi** con **proprieta'** comuni
+> 🤏 Definizione intuitiva: **Insieme** $\triangleq$ collezione di **elementi** con **proprieta'** comuni
 
 ## 🚀 Esempio
 
-L'insieme `semi_carte_poker` $\triangleq \{$ semi di carte da gioco / usati nel poker $\}$ $\triangleq \{$ ♥️, ♦️, ♠️, ♣️ $\}$ 
+L'insieme `semi_carte_poker` $\triangleq \{ $ semi di carte da gioco / usati nel poker $\}$ $\triangleq \{$ ♥️, ♦️, ♠️, ♣️ $\}$ 
 
 * Nome: `semi_carte_poker`
 * Simbolo: 🃏
