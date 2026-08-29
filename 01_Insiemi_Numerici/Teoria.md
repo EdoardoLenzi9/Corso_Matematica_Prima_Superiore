@@ -4,38 +4,7 @@
 
 > 🎯 Obiettivo: comprendere come i matematici classificano i numeri attraverso gli **insiemi numerici**.
 
-<svg viewBox="0 0 700 120" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .box{fill:#f8fafc;stroke:#334155;stroke-width:1.5}
-    .t{font:14px Arial;text-anchor:middle;dominant-baseline:middle}
-    .small{font:11px Arial;fill:#475569}
-    .arrow{stroke:#64748b;stroke-width:1.5;marker-end:url(#a)}
-  </style>
-  <defs>
-    <marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
-      <path d="M0,0 L0,6 L9,3 z" fill="#64748b"/>
-    </marker>
-  </defs>
-  <rect class="box" x="20" y="30" width="110" height="55" rx="10"/>
-  <text class="t" x="75" y="48">Naturali</text>
-  <text class="small" x="75" y="65">contare</text>
-  <line class="arrow" x1="130" y1="57" x2="155" y2="57"/>
-  <rect class="box" x="155" y="30" width="110" height="55" rx="10"/>
-  <text class="t" x="210" y="48">Interi</text>
-  <text class="small" x="210" y="65">sottrarre</text>
-  <line class="arrow" x1="265" y1="57" x2="290" y2="57"/>
-  <rect class="box" x="290" y="30" width="120" height="55" rx="10"/>
-  <text class="t" x="350" y="48">Razionali</text>
-  <text class="small" x="350" y="65">dividere</text>
-  <line class="arrow" x1="410" y1="57" x2="435" y2="57"/>
-  <rect class="box" x="435" y="30" width="120" height="55" rx="10"/>
-  <text class="t" x="495" y="48">Irrazionali</text>
-  <text class="small" x="495" y="65">misurare</text>
-  <line class="arrow" x1="555" y1="57" x2="580" y2="57"/>
-  <rect class="box" x="580" y="30" width="100" height="55" rx="10"/>
-  <text class="t" x="630" y="48">Reali</text>
-  <text class="small" x="630" y="65">continuo</text>
-</svg>
+![](assets/001.svg)
 
 # 1. Insieme
 
