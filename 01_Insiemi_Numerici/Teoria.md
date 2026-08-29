@@ -36,6 +36,20 @@ L'insieme `sport_da_racchetta` ...
 
 > 🤔 Domanda: qual'e' il primo e l'ultimo elemento dell'insieme?
 
+# 📌 $\in$ Appartenenza
+
+Dato l'insieme `semi_carte_poker` = { ♥️, ♦️, ♠️, ♣️ } 
+
+> 🤔 Domanda: l'elemento ♦️ appartiene all'insieme `semi_carte_poker`?
+
+* ♦️ $\in$ `semi_carte_poker`
+* "l'elemento ♦️ appartiene all'insieme `semi_carte_poker`"
+
+> 🤔 Domanda: l'elemento 🗡️ appartiene all'insieme `semi_carte_poker`?
+
+* 🗡️ $\not\in$ `semi_carte_poker`
+* "l'elemento 🗡️ **non** appartiene all'insieme `semi_carte_poker`"
+
 # 📌 Uguaglianza
 
 Consideriamo gli insiemi `A` e `B`
@@ -67,7 +81,8 @@ possiamo dire che $A\sim B$
 > 🤏 Definizione: La `cardinalita'` di un insieme e' il numero di elementi che esso contiene
 
 Per esempio la cardinalita' dell'insieme $A$ = \{1,2,4\}$ vale `3`; formalmente $|A| = 3$.
-Mentre $|\{ ♥️, ♦️, ♠️, ♣️ \}| = 4$.
+
+Mentre $|$ { ♥️, ♦️, ♠️, ♣️ } $| = 4$.
 
 > 🤔 Domanda: quanto vale $|\mathbb N|$ ?
 
@@ -91,35 +106,23 @@ $$1\not\in A$$
 
 # 📌 Definizione di insieme
 
-> 💡 Idea: la **definizione** di insiemi omogenei si basa sulle **proprieta' comuni** 
+> 💡 Idea: la `definizione` di insiemi omogenei si basa sulle `proprieta' comuni` 
 > degli elementi. Questo e' un metodo elegante che permette con una 
 > `breve definizione` di definire `insiemi molto grandi` (talvolta `infiniti` $\infty$).
 
 >💡 Idea: ci sono `tanti modi diversi` ed `equivalenti` per definire un insieme 
-> (tipicamente piu' una definizione risulta: chiara, non ambigua, precisa e concisa; 
+> (tipicamente piu' una definizione risulta: chiara, non ambigua, precisa e concisa: 
 > piu' sara' elegante)
 
 >🤏 Definizione formale: un `insieme` è una `collezione` (non ordinata) di `oggetti distinti`, detti `elementi`, tale che sia possibile stabilire in modo non ambiguo se un determinato oggetto `appartiene` oppure no all'insieme.
 
->💡 Idea: posso pensare quindi di definire in modo estensivo un insieme elencando uno ad uno i suoi elementi. In questo modo potrei definire anche insiemi eterogenei. 
+> 🤔 Domanda: queso insieme $A = \{ 1, 2, 1\}$ e' ben definito? 
+
+>💡 Idea: posso pensare quindi di definire in modo `estensivo` un insieme elencando uno ad uno i suoi elementi. In questo modo potrei definire anche insiemi `eterogenei`, come:
 
 $$ A = \lbrace 2, gatto, \pi, \triangle \rbrace $$
 
 > 🤔 Domanda: sara' possibile definire insiemi infiniti $\infty$ in questo modo?
-
-# 📌 $\in$ Appartenenza
-
-Dato l'insieme `semi_carte_poker` = { ♥️, ♦️, ♠️, ♣️ } 
-
-> 🤔 Domanda: l'elemento ♦️ appartiene all'insieme `semi_carte_poker`?
-
-* ♦️ $\in$ `semi_carte_poker`
-* "l'elemento ♦️ appartiene all'insieme `semi_carte_poker`"
-
-> 🤔 Domanda: l'elemento 🗡️ appartiene all'insieme `semi_carte_poker`?
-
-* 🗡️ $\not\in$ `semi_carte_poker`
-* "l'elemento 🗡️ **non** appartiene all'insieme `semi_carte_poker`"
 
 # 📌 Definizione induttiva
 
@@ -130,7 +133,11 @@ $$n\in\mathbb N\Rightarrow S(n)\in\mathbb N$$
 $$S(n) \triangleq n + 1$$
 
 
+---
 
+---
+
+---
 
 
 
