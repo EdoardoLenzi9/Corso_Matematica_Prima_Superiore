@@ -18,8 +18,8 @@ $\{ $
 $\}$
 $\left\{$
 $\right\}$
-$\lbrace$
-$\rbrace$
+$\lbrace$ {
+$\rbrace$ }
 
 
 L'insieme `semi_carte_poker` $\triangleq$ { semi di carte da gioco / usati nel poker } $\triangleq$ { ♥️, ♦️, ♠️, ♣️ } 
