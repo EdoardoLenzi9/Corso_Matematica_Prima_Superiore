@@ -8,7 +8,7 @@
 
 # 📌 Insieme
 
-> 🤏 Definizione intuitiva: **Insieme** $\triangleq$ collezione di **elementi** con **proprieta'** comuni
+🤏 Definizione intuitiva: **Insieme** $\triangleq$ collezione di **elementi** con **proprieta'** comuni
 
 ## 🚀 Esempio
 
