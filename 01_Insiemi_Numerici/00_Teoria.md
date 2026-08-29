@@ -1,3 +1,26 @@
-I numeri naturali, interi,razionalie reali•Le operazioni con i numeri naturali, interi, razionali•Cenni ai numeri irrazionali e ai numeri reali•Scomposizione in fattori primi; MCD e mcm•Valore assoluto di un numero•Proprietà delle potenze•Numeri decimali•Proporzioni e percentuali
+# Insiemi numerici
 
-$$ \frac{1}{2} \cdot 9 = 12^4 $$
+## Numeri naturali
+
+## Numeri razionali
+
+## Numeri reali
+
+## Numeri irrazionali
+
+## Operazioni
+
+## Scomposizione in fattori primi
+
+## MCD (Massimo Comune Divisore)
+
+## mcm (minimo comune multiplo)
+
+## Valore assoluto
+
+## Proprieta' delle potenze
+
+## Numeri decimali
+
+## Proporzioni e percentuali
+
