@@ -132,51 +132,7 @@ $$0\in\mathbb N$$
 $$n\in\mathbb N\Rightarrow S(n)\in\mathbb N$$
 $$S(n) \triangleq n + 1$$
 
-
----
-
----
-
----
-
-
-
-
-
-
-
-
-
-## 🚀 Esempio
-
-## 🚀 Esempio
-
-L'insieme `` $\triangleq \{ ??? \} \triangleq \{ ?, ?, ? \}$ 
-
-* Nome: `lettere_maiuscole`
-* Simbolo: 🅰
-* Definizione: $\{ ??? \}$
-* Proprieta' comune: ???
-* Elementi: $\{ ?, ?, ? \}$
-* Primo elemento: ?
-* Ultimo elemento: ?
-
-
-
-
-![](assets/002.png)
-
-
-
-
-
-
-
-
-
-
-
-
+# 📌 Insiemi numerici
 
 I principali insiemi numerici sono:
 
@@ -191,6 +147,8 @@ $$
 \mathbb{N}\subset\mathbb{Z}\subset\mathbb{Q}\subset\mathbb{R}
 $$
 
+![](assets/002.png)
+
 > 💡 Idea: Ogni insieme nasce perché il precedente **non è sufficiente** a
 > rappresentare tutti i numeri di cui abbiamo bisogno
 
@@ -199,123 +157,69 @@ $$
 - I razionali non rappresentano tutte le lunghezze ($\pi\ e$)
 - I reali completano la retta numerica
 
----
+# 📌 Numeri naturali ($\mathbb N$)
 
-# 2. Numeri naturali
-
-## Motivazione
-
-Servono per contare oggetti.
-
-## Definizione
+Nascono in tempi antichi per contare oggetti
 
 $$
 \mathbb N=\{0,1,2,3,\dots\}
 $$
 
-## Proprietà
-
-Le operazioni chiuse sono:
-
-- addizione
-- moltiplicazione
-
-Non sempre è possibile sottrarre:
-
-$$
-3-5\notin\mathbb N
-$$
-
 ## Rappresentazione
 
-<svg viewBox="0 0 520 70" xmlns="http://www.w3.org/2000/svg">
-  <line x1="30" y1="35" x2="490" y2="35" stroke="#111827" stroke-width="2"/>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
-      <path d="M0,0 L8,4 L0,8 Z" fill="#111827"/>
-    </marker>
-  </defs>
-  <line x1="470" y1="35" x2="490" y2="35" stroke="#111827" stroke-width="2" marker-end="url(#arrow)"/>
-  <g font-family="Arial" font-size="11" text-anchor="middle">
-    <g><line x1="40" y1="28" x2="40" y2="42" stroke="#111827"/><text x="40" y="58">0</text></g>
-    <g><line x1="110" y1="28" x2="110" y2="42" stroke="#111827"/><text x="110" y="58">1</text></g>
-    <g><line x1="180" y1="28" x2="180" y2="42" stroke="#111827"/><text x="180" y="58">2</text></g>
-    <g><line x1="250" y1="28" x2="250" y2="42" stroke="#111827"/><text x="250" y="58">3</text></g>
-    <g><line x1="320" y1="28" x2="320" y2="42" stroke="#111827"/><text x="320" y="58">4</text></g>
-    <g><line x1="390" y1="28" x2="390" y2="42" stroke="#111827"/><text x="390" y="58">5</text></g>
-    <g><line x1="460" y1="28" x2="460" y2="42" stroke="#111827"/><text x="460" y="58">6</text></g>
-  </g>
-</svg>
+![](assets/003.svg)
 
-## Esempi
+## Addizione
 
-$$
-7+4=11
-$$
+Consideriamo due numeri naturali $x\in\mathbb N$ e $y\in\mathbb N$ 
+(i.e. $x=2,y=4$).
 
-$$
-5\times3=15
-$$
+L'operazione di `addizione` si definisce `chiusa` nei numeri naturali in quanto
+vale sempre:
 
-## Esercizi
+$$x+y=z \Rightarrow z\in\mathbb N$$
+(qualsiasi numeri naturali siano `x` e `y`, la loro somma `z` sara' anch'essa un numero naturale ("chiuso" nell'insieme $\mathbb N$): $2 + 4 = 6 \in\mathbb N$)
 
-1. Calcola $$18+27$$ *(capire l'addizione)*
-2. Calcola $$9\times12$$ *(automatizzare la moltiplicazione)*
-3. Spiega perché $$4-9$$ non appartiene ai naturali.
+## Moltiplicazione
 
-**Transizione:** nasce l'esigenza dei numeri negativi.
+Anche la `moltiplicazione` si definisce operazione `chiusa` per lo stesso motivo
 
----
+$$x\in\mathbb N,\ y\in\mathbb N$$
 
-# 3. Numeri interi
+$$x \times y = z\ \Rightarrow\ z \in\mathbb N$$
 
-## Motivazione
+## Sottrazione
+
+> 🤔 Domanda: vale lo stesso per la sottrazione? sara' anch'essa operazione `chiusa` in $\mathbb N$? Fai un esempio
+
+# Numeri interi
+
+> 💡 Idea: nasce l'esigenza di definire un'insieme contenente numeri negativi
 
 Come rappresentare debiti, temperature sotto zero e differenze negative?
 
-## Definizione
+## Rappresentazione
 
 $$
-\mathbb Z=\{\dots,-3,-2,-1,0,1,2,3,\dots\}
+\mathbb Z \triangleq \{\dots,-3,-2,-1,0,1,2,3,\dots\}
 $$
 
-## Retta numerica
+![](assets/004.svg)
 
-<svg viewBox="0 0 520 80" xmlns="http://www.w3.org/2000/svg">
-  <line x1="30" y1="40" x2="490" y2="40" stroke="#111827" stroke-width="2"/>
-  <defs>
-    <marker id="arrow2" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
-      <path d="M0,0 L8,4 L0,8 Z" fill="#111827"/>
-    </marker>
-  </defs>
-  <line x1="470" y1="40" x2="490" y2="40" stroke="#111827" stroke-width="2" marker-end="url(#arrow2)"/>
-  <g font-family="Arial" font-size="10" text-anchor="middle">
-    <g><line x1="40" y1="32" x2="40" y2="48" stroke="#111827"/><text x="40" y="64">-3</text></g>
-    <g><line x1="110" y1="32" x2="110" y2="48" stroke="#111827"/><text x="110" y="64">-2</text></g>
-    <g><line x1="180" y1="32" x2="180" y2="48" stroke="#111827"/><text x="180" y="64">-1</text></g>
-    <g><line x1="250" y1="28" x2="250" y2="52" stroke="#047857" stroke-width="2"/><text x="250" y="64" fill="#047857">0</text></g>
-    <g><line x1="320" y1="32" x2="320" y2="48" stroke="#111827"/><text x="320" y="64">1</text></g>
-    <g><line x1="390" y1="32" x2="390" y2="48" stroke="#111827"/><text x="390" y="64">2</text></g>
-    <g><line x1="460" y1="32" x2="460" y2="48" stroke="#111827"/><text x="460" y="64">3</text></g>
-  </g>
-</svg>
+## Simmetria
 
-## Opposto
+![](assets/006.png)
+
+## Addizione e moltiplicazione
+
+> 🤔 Domanda: possiamo affermare che le proprieta' delle operazioni che valgono per l'insieme dei numeri naturali $\mathbb N$ valgono anche per l'insieme $\mathbb Z$ ma non vice versa? Perche'?
+
+## Numeri opposti
 
 Due numeri sono opposti se la loro somma è zero.
 
 $$
 (+5)+(-5)=0
-$$
-
-## Esempi
-
-$$
-3-8=-5
-$$
-
-$$
--4+7=3
 $$
 
 ## Esercizi
@@ -324,15 +228,15 @@ $$
 2. Calcola $$-6+9$$
 3. Trova l'opposto di $$13$$
 
-**Transizione:** ora possiamo parlare della distanza da zero.
+> 💡 Idea: ora possiamo parlare della distanza da zero.
 
----
+## Valore assoluto
 
-# 4. Valore assoluto
+Il valore assoluto di un numero ($|x|$) e' definito come la distanza del numero da `0` (`origine`).
 
-## Definizione
+(Equivale a considerare il numero sempre di segno positivo `+`) 
 
-Il valore assoluto è la distanza di un numero dall'origine.
+(Equivale a moltiplicare il numero per il suo stesso segno (annullondolo))
 
 $$
 |x|=
@@ -342,40 +246,15 @@ x & x\ge0\\
 \end{cases}
 $$
 
-## Visualizzazione
+![](assets/004.svg)
 
-<svg viewBox="0 0 520 90" xmlns="http://www.w3.org/2000/svg">
-  <line x1="30" y1="45" x2="490" y2="45" stroke="#111827" stroke-width="2"/>
-  <g font-family="Arial" font-size="10" text-anchor="middle">
-    <g><line x1="40" y1="38" x2="40" y2="52" stroke="#111827"/><text x="40" y="66">-3</text></g>
-    <g><line x1="110" y1="38" x2="110" y2="52" stroke="#111827"/><text x="110" y="66">-2</text></g>
-    <g><line x1="180" y1="38" x2="180" y2="52" stroke="#111827"/><text x="180" y="66">-1</text></g>
-    <g><line x1="250" y1="34" x2="250" y2="56" stroke="#047857" stroke-width="2"/><text x="250" y="66" fill="#047857">0</text></g>
-    <g><line x1="320" y1="38" x2="320" y2="52" stroke="#111827"/><text x="320" y="66">1</text></g>
-    <g><line x1="390" y1="38" x2="390" y2="52" stroke="#111827"/><text x="390" y="66">2</text></g>
-    <g><line x1="460" y1="38" x2="460" y2="52" stroke="#111827"/><text x="460" y="66">3</text></g>
-  </g>
-  <circle cx="110" cy="45" r="5" fill="#2563EB"/>
-  <circle cx="390" cy="45" r="5" fill="#2563EB"/>
-  <path d="M110 22 Q250 2 390 22" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-dasharray="4 3"/>
-  <text x="250" y="14" font-size="10" text-anchor="middle" font-family="Arial" fill="#1D4ED8">stessa distanza = 2</text>
-</svg>
+Vale sempre la proprieta':
 
-## Esempi
+$$x \in\mathbb Z$$
+$$|x| \ge 0$$
 
-$$
-|-8|=8
-$$
-
-$$
-|5|=5
-$$
-
-## Proprietà
-
-$$
-|x|\ge0
-$$
+Il valore assoluto e' molto utile per misurare la distanza fra due punti 
+(qualsiasi siano i loro segni):
 
 $$
 |a-b|=\text{distanza tra }a\text{ e }b
@@ -383,17 +262,29 @@ $$
 
 ## Esercizi
 
-1. Calcola $$|-15|$$
-2. Calcola $$|7-11|$$
-3. Risolvi $$|x|=4$$
+* $|10| = ?$
+* $|+10| = ?$
+* $|-10| = ?$
+* $|-123| = ?$
+* $|+123| = ?$
+* $|(-10) - (+2)| = ?$
+* Risolvi $$|x|=4$$
 
-**Intento:** comprendere la distanza e la simmetria.
+## Sottrazione
 
----
+Nell'insieme dei numeri interi la `sottrazione` si definisce operazione `chiusa` 
 
-# 5. Numeri razionali
+$$x\in\mathbb Z,\ y\in\mathbb Z$$
 
-## Motivazione
+$$x - y = z\ \Rightarrow\ z \in\mathbb Z$$
+
+## Divisione
+
+> 🤔 Domanda: vale lo stesso per la divisione? sara' anch'essa operazione `chiusa` in $\mathbb Z$? Fai un esempio
+
+# Numeri razionali
+
+> 💡 Idea: nasce l'esigenza di definire un'insieme contenente i numeri con la virgola
 
 Come rappresentare metà pizza o tre quarti di litro?
 
@@ -401,22 +292,16 @@ Come rappresentare metà pizza o tre quarti di litro?
 
 Un numero razionale è un rapporto tra due interi.
 
-$$
-\frac{a}{b},\qquad b\neq0
-$$
+$$\mathbb Q \triangleq \{ \frac{a}{b},\ \forall\ a \in\mathbb Z, b \in\mathbb Z, b \not = 0 \}$$
+
+![](assets/004.svg)
 
 ## Frazioni equivalenti
 
+Due frazioni $\frac{a}{b}, \frac{c}{d}$ si dicono equivalenti se vale: $a\cdot d = c\cdot b$
+
 $$
 \frac12=\frac24=\frac36
-$$
-
-## Proprietà
-
-Due frazioni sono equivalenti se
-
-$$
-ad=bc
 $$
 
 ## Esempi
@@ -429,37 +314,60 @@ $$
 \frac25\times\frac53=\frac23
 $$
 
-## Esercizi
-
-1. Semplifica $$\frac{18}{24}$$
-2. Confronta $$\frac35$$ e $$\frac47$$
-3. Verifica l'equivalenza tra $$\frac23$$ e $$\frac46$$
-
----
-
-# 6. Numeri decimali
-
-## Definizione
+## Numeri decimali
 
 Ogni razionale possiede uno sviluppo decimale finito oppure periodico.
 
-## Classificazione
+## Esempio
 
-| Tipo | Esempio |
-|---|---|
-| Finito | $$0.25$$ |
-| Periodico semplice | $$0.\overline3$$ |
-| Periodico misto | $$1.2\overline7$$ |
+Un numero razionale ha varie rappresentazioni (tutte equivalenti):
+
+$$5 / 10 = \frac{5}{10} = \frac{1}{2} = 0.5$$
+
+## Esempio
+
+Posso sempre convertire una rappresentazione di un numero razionale in un'altra:
+
+$$
+\frac18=1 / 8 = 0.125
+$$
+
+$$
+0.75=75 / 100 = \frac{75}{100} = \frac34
+$$
+
+## Esercizi
+
+* Semplifica $\frac{18}{24}$
+* Confronta $\frac35$ e $\frac47$
+* Verifica l'equivalenza tra $\frac23$ e $\frac46$
+
+## Divisione
+
+Nell'insieme dei numeri razionali la `divisione` si definisce operazione `chiusa` per 
+definizione dell'insieme
+
+$$x\in\mathbb Q,\ y\in\mathbb Q$$
+
+$$x / y = z\ \Rightarrow\ z \in\mathbb Q$$
+
+> 💡 Idea: non abbiamo altre esigenze? l'insieme $\mathbb Q$ basta da solo a racchiudere ogni 
+> numero esistente? 
+
+## Numeri periodici
+
+$$ 10 / 3 = \frac{10}{3} = 3.3333333333... = 3.\overline{3}$$
+
+* Un numero si dice `periodico semplice` se ha infinite cifre uguali dopo la virgola $3.333333...,0.1233333...$
+* Un numero di dice `periodico misto` se il suo periodo e' formato da cifre diverse
+
+$$0.4123123123123 = 0.4 \ 123 \ 123 \ 123 \ 123 = 0.4\overline{123}$$
+
+> Cosa pensi di numeri come $\pi$, $\sqrt{2}$, $e$, ...
 
 ## Conversione
 
-$$
-\frac18=0.125
-$$
 
-$$
-0.75=\frac34
-$$
 
 ## Esercizi
 
