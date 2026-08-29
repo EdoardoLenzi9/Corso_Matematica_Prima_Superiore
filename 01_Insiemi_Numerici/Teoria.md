@@ -1,4 +1,4 @@
-# Insiemi Numerici
+# 🎓 Lezione: Insiemi Numerici
 
 > 💡 Idea: ogni nuovo concetto nasce dalla necessità di **estendere** il precedente
 
@@ -6,11 +6,120 @@
 
 ![](assets/001.svg)
 
-# 1. Insieme
+# 📌 Insieme
 
-> 🤏 Definizione: **Insieme** $\triangleq$ collezione di **elementi** con **proprieta'** comuni
+> 🤏 Definizione intuitiva: **Insieme** $\triangleq$ collezione di **elementi** con **proprieta'** comuni
 
-## 2. Insiemi numerici
+## 🚀 Esempio
+
+L'insieme `semi_carte_poker` $\triangleq \{$ semi di carte da gioco / usati nel poker $\}$ $\triangleq \{$ ♥️, ♦️, ♠️, ♣️ $\}$ 
+
+* Nome: `semi_carte_poker`
+* Simbolo: 🃏
+* Definizione: $\{$ semi di carte da gioco / usati nel poker $\}$
+* Proprieta' comune: semi usati nel `poker`
+* Elementi: $\{$ ♥️, ♦️, ♠️, ♣️ $\}$
+* Primo elemento: ♥️
+* Ultimo elemento: ♣️
+
+## 🚀 Esempio
+
+L'insieme `lettere_maiuscole` $\triangleq \{$ ??? $\}$ $\triangleq \{$ ?, ?, ? $\}$ 
+
+* Nome: `lettere_maiuscole`
+* Simbolo: 🅰
+* Definizione: $\{$ ??? $\}$
+* Proprieta' comune: ???
+* Elementi: $\{$ ?, ?, ? $\}$
+* Primo elemento: ?
+* Ultimo elemento: ?
+
+## 🚀 Esempio
+
+L'insieme `sport_da_racchetta` ...
+
+# 📌 Definizione di insieme
+
+> 💡 Idea: la **definizione** di insiemi omogenei si basa sulle **proprieta' comuni** 
+> degli elementi. Questo e' un metodo elegante che permette con una 
+> `breve definizione` di definire `insiemi molto grandi` (talvolta `infiniti` $\infty$).
+
+>💡 Idea: ci sono `tanti modi diversi` ed `equivalenti` per definire un insieme 
+> (tipicamente piu' una definizione risulta: chiara, non ambigua, precisa e concisa; 
+> piu' sara' elegante)
+
+>🤏 Definizione formale: un `insieme` è una `collezione` (non ordinata) di `oggetti distinti`, detti `elementi`, tale che sia possibile stabilire in modo non ambiguo se un determinato oggetto `appartiene` oppure no all'insieme.
+
+>💡 Idea: posso pensare quindi di definire in modo estensivo un insieme elencando uno ad uno i suoi elementi. In questo modo potrei definire anche insiemi eterogenei. 
+
+$$ A=\{2,gatto, \pi, \triangle \} $$
+
+> Sara' possibile definire insiemi infiniti $\infty$ in questo modo?
+
+# 📌 $\in$ Appartenenza
+
+Dato l'insieme `semi_carte_poker` = $\{$ ♥️, ♦️, ♠️, ♣️ $\}$ 
+
+L'elemento ♦️ appartiene all'insieme `semi_carte_poker`?
+
+* ♦️ $\in$ `semi_carte_poker`
+* "l'elemento ♦️ appartiene all'insieme `semi_carte_poker`"
+
+L'elemento 🗡️ appartiene all'insieme `semi_carte_poker`?
+
+* 🗡️ $\not\in$ `semi_carte_poker`
+* "l'elemento 🗡️ **non** appartiene all'insieme `semi_carte_poker`"
+
+
+
+
+
+
+# 📌 Definizione induttiva
+
+> 💡 Idea: la **definizione** di insiemi omogenei si basa sulle **proprieta' comuni** 
+> degli elementi. Questo e' un metodo elegante che permette con una `breve definizione` di definire `insiemi molto grandi` (talvolta `infiniti` $\infty$).
+
+## 🚀 Esempio
+
+
+
+# 📌 Insieme eterogeneo
+
+> 💡 Idea: posso definire un insieme in modo estensivo dichiarando `uno ad uno` tutti 
+> i suoi elementi. Questo e' un metodo meno elegante ma permette di definire insiemi 
+> eterogenei. 
+
+## 🚀 Esempio
+
+## 🚀 Esempio
+
+L'insieme `` $\triangleq \{$ ??? $\}$ $\triangleq \{$ ?, ?, ? $\}$ 
+
+* Nome: `lettere_maiuscole`
+* Simbolo: 🅰
+* Definizione: $\{$ ??? $\}$
+* Proprieta' comune: ???
+* Elementi: $\{$ ?, ?, ? $\}$
+* Primo elemento: ?
+* Ultimo elemento: ?
+
+
+
+
+![](assets/002.png)
+
+
+
+
+
+
+
+
+
+
+
+
 
 I principali insiemi numerici sono:
 
@@ -25,16 +134,13 @@ $$
 \mathbb{N}\subset\mathbb{Z}\subset\mathbb{Q}\subset\mathbb{R}
 $$
 
+> 💡 Idea: Ogni insieme nasce perché il precedente **non è sufficiente** a
+> rappresentare tutti i numeri di cui abbiamo bisogno
 
-
-## Idea fondamentale
-
-Ogni insieme nasce perché quello precedente **non è sufficiente**.
-
-- I naturali non permettono sempre la sottrazione.
-- Gli interi non permettono sempre la divisione.
-- I razionali non rappresentano tutte le lunghezze.
-- I reali completano la retta numerica.
+- I naturali non permettono sempre la sottrazione ($1 - 2$)
+- Gli interi non permettono sempre la divisione ($\frac{1}{2}$)
+- I razionali non rappresentano tutte le lunghezze ($\pi\ e$)
+- I reali completano la retta numerica
 
 ---
 
