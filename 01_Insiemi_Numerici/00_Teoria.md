@@ -114,7 +114,7 @@ $$1\not\in A$$
 > (tipicamente piu' una definizione risulta: chiara, non ambigua, precisa e concisa: 
 > piu' sara' elegante)
 
->🤏 Definizione formale: un `insieme` è una `collezione` (non ordinata) di `oggetti distinti`, detti `elementi`, tale che sia possibile stabilire in modo non ambiguo se un determinato oggetto `appartiene` oppure no all'insieme.
+> 🤏 Definizione formale: un `insieme` è una `collezione` (non ordinata) di `oggetti distinti`, detti `elementi`, tale che sia possibile stabilire in modo non ambiguo se un determinato oggetto `appartiene` oppure no all'insieme.
 
 > 🤔 Domanda: queso insieme $A = \{ 1, 2, 1\}$ e' ben definito? 
 
@@ -163,11 +163,11 @@ Nascono in tempi antichi per contare oggetti
 
 $$\mathbb N=\{0,1,2,3,\dots\}$$
 
-## Rappresentazione
+## 📚 Rappresentazione
 
 ![](assets/003.svg)
 
-## Addizione
+## 📚 Addizione
 
 Consideriamo due numeri naturali $x\in\mathbb N$ e $y\in\mathbb N$ 
 (i.e. $x=2,y=4$).
@@ -178,7 +178,7 @@ vale sempre:
 $$x+y=z \Rightarrow z\in\mathbb N$$
 (qualsiasi numeri naturali siano `x` e `y`, la loro somma `z` sara' anch'essa un numero naturale ("chiuso" nell'insieme $\mathbb N$): $2 + 4 = 6 \in\mathbb N$)
 
-## Moltiplicazione
+## 📚 Moltiplicazione
 
 Anche la `moltiplicazione` si definisce operazione `chiusa` per lo stesso motivo
 
@@ -186,7 +186,7 @@ $$x\in\mathbb N,\ y\in\mathbb N$$
 
 $$x \times y = z\ \Rightarrow\ z \in\mathbb N$$
 
-## Sottrazione
+## 📚 Sottrazione
 
 > 🤔 Domanda: vale lo stesso per la sottrazione? sara' anch'essa operazione `chiusa` in $\mathbb N$? Fai un esempio
 
@@ -196,7 +196,7 @@ $$x \times y = z\ \Rightarrow\ z \in\mathbb N$$
 
 Come rappresentare debiti, temperature sotto zero e differenze negative?
 
-## Rappresentazione
+## 📚 Rappresentazione
 
 $$
 \mathbb Z \triangleq \{\dots,-3,-2,-1,0,1,2,3,\dots\}
@@ -204,15 +204,15 @@ $$
 
 ![](assets/004.svg)
 
-## Simmetria
+## 📚 Simmetria
 
 ![](assets/006.png)
 
-## Addizione e moltiplicazione
+## 📚 Addizione e moltiplicazione
 
 > 🤔 Domanda: possiamo affermare che le proprieta' delle operazioni che valgono per l'insieme dei numeri naturali $\mathbb N$ valgono anche per l'insieme $\mathbb Z$ ma non vice versa? Perche'?
 
-## Numeri opposti
+## 📚 Numeri opposti
 
 Due numeri sono opposti se la loro somma è zero.
 
@@ -220,7 +220,7 @@ $$
 (+5)+(-5)=0
 $$
 
-## Esercizi
+## 🚀 Esercizi
 
 1. Ordina: $$-2,\;4,\;-7,\;1$$
 2. Calcola $$-6+9$$
@@ -228,7 +228,7 @@ $$
 
 > 💡 Idea: ora possiamo parlare della distanza da zero.
 
-## Valore assoluto
+## 📚 Valore assoluto
 
 Il valore assoluto di un numero ($|x|$) e' definito come la distanza del numero da `0` (`origine`).
 
@@ -258,7 +258,7 @@ $$
 |a-b|=\text{distanza tra }a\text{ e }b
 $$
 
-## Esercizi
+## 🚀 Esercizi
 
 * $|10| = ?$
 * $|+10| = ?$
@@ -268,7 +268,7 @@ $$
 * $|(-10) - (+2)| = ?$
 * Risolvi $|x|=4$
 
-## Sottrazione
+## 📚 Sottrazione
 
 Nell'insieme dei numeri interi la `sottrazione` si definisce operazione `chiusa` 
 
@@ -276,7 +276,7 @@ $$x\in\mathbb Z,\ y\in\mathbb Z$$
 
 $$x - y = z\ \Rightarrow\ z \in\mathbb Z$$
 
-## Divisione
+## 📚 Divisione
 
 > 🤔 Domanda: vale lo stesso per la divisione? Sara' anch'essa operazione `chiusa` in $\mathbb Z$? Fai un esempio
 
@@ -286,43 +286,41 @@ $$x - y = z\ \Rightarrow\ z \in\mathbb Z$$
 
 Come rappresentare metà pizza o tre quarti di litro?
 
-## Definizione
-
-Un numero razionale è un rapporto tra due interi.
+>🤏 Definizione: Un `numero razionale` è un rapporto tra due interi
 
 $$\mathbb Q \triangleq \{ \frac{a}{b},\ \forall\ a \in\mathbb Z, b \in\mathbb Z, b \not = 0 \}$$
 
 ![](assets/004.svg)
 
-## Frazioni equivalenti
+## 📚 Frazioni equivalenti
 
 Due frazioni $\frac{a}{b}, \frac{c}{d}$ si dicono equivalenti se vale: $a\cdot d = c\cdot b$
 
 $$\frac12=\frac24=\frac36$$
 
-## Esempi
+## 🚀 Esempi
 
 $$\frac34+\frac14=1$$
 $$\frac25\times\frac53=\frac23$$
 
-## Numeri decimali
+## 📚 Numeri decimali
 
 Ogni razionale possiede uno sviluppo decimale finito oppure periodico.
 
-## Esempio
+## 🚀 Esempio
 
 Un numero razionale ha varie rappresentazioni (tutte equivalenti):
 
 $$5 / 10 = \frac{5}{10} = \frac{1}{2} = 0.5$$
 
-## Esempio
+## 🚀 Esempio
 
 Posso sempre convertire una rappresentazione di un numero razionale in un'altra:
 
 $$\frac18=1 / 8 = 0.125$$
 $$0.75=75 / 100 = \frac{75}{100} = \frac34$$
 
-## Esercizi
+## 🚀 Esercizi
 
 * Semplifica $\frac{18}{24}$
 * Confronta $\frac35$ e $\frac47$
@@ -331,7 +329,7 @@ $$0.75=75 / 100 = \frac{75}{100} = \frac34$$
 * Scrivi in decimale $\frac58$
 * Riconosci il tipo di $2.13\overline5$
 
-## Divisione
+## 📚 Divisione
 
 Nell'insieme dei numeri razionali la `divisione` si definisce operazione `chiusa` per 
 definizione dell'insieme
@@ -343,7 +341,7 @@ $$x / y = z\ \Rightarrow\ z \in\mathbb Q$$
 > 💡 Idea: non abbiamo altre esigenze? l'insieme $\mathbb Q$ basta da solo a racchiudere ogni 
 > numero esistente? 
 
-## Numeri periodici
+## 📚 Numeri periodici
 
 Un numero razionale può avere uno sviluppo decimale **finito** oppure **periodico**
 
@@ -365,7 +363,7 @@ $$ 10 / 3 = \frac{10}{3} = 3.3333333333... = 3.\overline{3}$$
 > 💡 Idea: non tutti i numeri si possono costruire tramite una frazione,
 > esistono lunghezze che nessuna frazione può rappresentare
 
-## Esempio
+## 🚀 Esempio
 
 Consideriamo un quadrato di lato 1
 
@@ -382,7 +380,7 @@ $$
 1.414213562\dots
 $$
 
-## Esercizi
+## 🚀 Esercizi
 
 * Spiega perché $\sqrt2$ non è razionale
 * Classifica $\pi$
@@ -402,7 +400,7 @@ $$
 
 # 📌 Proprieta' delle operazioni
 
-## Commutativa
+## 📚 Commutativa
 
 > 🤏 Definizione: un'operazione gode della proprietà commutativa se, scambiando 
 > l'ordine degli operandi, il risultato non cambia
@@ -410,14 +408,14 @@ $$
 $$a+b=b+a$$
 $$a\cdot b=b\cdot a$$
 
-## Associativa
+## 📚 Associativa
 
 > 🤏 Definizione: un'operazione gode della proprietà associativa se, cambiando 
 > il modo in cui gli operandi vengono raggruppati, il risultato non cambia
 
 $$(a+b)+c=a+(b+c)$$
 
-## Distributiva
+## 📚 Distributiva
 
 > 🤏 Definizione: la moltiplicazione è distributiva rispetto all'addizione e 
 > alla sottrazione quando può essere applicata separatamente a ciascun termine 
@@ -425,7 +423,7 @@ $$(a+b)+c=a+(b+c)$$
 
 $$a(b+c)=ab+ac$$
 
-## Priorità
+## 📚 Priorità
 
 1. Parentesi
 2. Potenze
@@ -436,30 +434,30 @@ $$a(b+c)=ab+ac$$
 
 $$3+4\times(5-2)^2$$
 
-# Potenze
+# 📌 Potenze
 
 > 🤏 Definizione: $a^n=\underbrace{a\cdot a\cdot\dots\cdot a}_{n\ volte}$ dove $a$ si dice `base` ed $n$ si dice `esponente`
 
-## Proprietà
+## 📚 Proprietà
 
 * `prodotto` $a^m\cdot a^n=a^{m+n}$
 * `quoziente` $\frac{a^m}{a^n}=a^{m-n}$
 * `potenza di potenza` $(a^m)^n=a^{mn}$
 * `potenza del prodotto` $(ab)^n=a^nb^n$
 
-## Esercizi
+## 🚀 Esercizi
 
 1. $2^5$ = ?
 2. $3^2\cdot3^4$ = ?
 3. $(2^3)^2$ = ?
 
-# Multipli, divisori e numeri primi
+# 📌 Multipli, divisori e numeri primi
 
-## Divisibilità
+## 📚 Divisibilità
 
 > 🤏 Definizione: un numero $a$ è `divisibile` per $b$ se esiste un intero $$k$$ tale che $a=bk$
 
-## Numeri primi
+## 📚 Numeri primi
 
 > 🤏 Definizione: un `numero primo` è un `numero naturale` maggiore di 1 che possiede esattamente due divisori positivi distinti: 1 e se' stesso
 
@@ -478,13 +476,13 @@ Criteri essenziali:
 | 5 | termina con 0 o 5 |
 | 9 | somma cifre multipla di 9 |
 
-## Esercizi
+## 🚀 Esercizi
 
 1. 147 e' divisibile per 3?
 2. 250 e' divisibile per 5?
 3. 37 è primo?
 
-# Scomposizione in fattori primi
+# 📌 Scomposizione in fattori primi
 
 > 🤏 Definizione - Teorema fondamentale: ogni numero intero maggiore di 1 si `scompone` in modo unico `come prodotto di numeri primi`
 
@@ -496,13 +494,13 @@ Quindi
 
 $$60=2^2\cdot3\cdot5$$
 
-## Esercizi
+## 🚀 Esercizi
 
 * Scomponi 36 in fattori primi
 * Scomponi 84 in fattori primi
 * Scrivi 180 in `forma canonica` (fattori primi `ordinati` in ordine crescente)
 
-# Massimo Comune Divisore (`MCD`)
+# 📌 Massimo Comune Divisore (`MCD`)
 
 > 🤏 Definizione: e' il più grande divisore comune tra due numeri
 
@@ -514,13 +512,13 @@ $$24=2^3\cdot3$$
 $$36=2^2\cdot3^2$$
 $$MCD=2^2\cdot3=12$$
 
-## Esercizi
+## 🚀 Esercizi
 
 * MCD(18, 30)
 * MCD(42, 56)
 * MCD(45, 75)
 
-# Minimo Comune Multiplo (mcm)
+# 📌 Minimo Comune Multiplo (mcm)
 
 > 🤏 Definizione: e' il più piccolo multiplo comune tra due numeri
 
@@ -532,13 +530,13 @@ $$24=2^3\cdot3$$
 $$36=2^2\cdot3^2$$
 $$mcm(24, 36) = 2^3\cdot3^2=72$$
 
-## Esercizi
+## 🚀 Esercizi
 
 1. mcm(8,12)
 2. mcm(15,20)
 3. mcm(18,30)
 
-# Rapporti, proporzioni e percentuali
+# 📌 Rapporti, proporzioni e percentuali
 
 > 🤏 Definizione: un `rapporto` e' il `quoziente` tra due
 > grandezze
@@ -552,7 +550,7 @@ $$a:b=c:d$$
 
 > Dove vale la `proprietà fondamentale`: $ad=bc$
 
-## Esempio
+## 🚀 Esempio
 
 $$2:5=8:20$$
 $$\frac{2}{5}=\frac{8}{20}$$
@@ -561,7 +559,7 @@ $$\frac{20\cdot2}{5}=\frac{8}{1}$$
 $$5\cdot\frac{20\cdot2}{5}=5\cdot\frac{8}{1}$$
 $$2\cdot20=5\cdot8$$
 
-## Percentuale
+## 📚 Percentuale
 
 Una percentuale rappresenta una frazione su 100
 
@@ -574,13 +572,13 @@ $$\text{Parte}=\frac p{100}\times\text{Totale}$$
 $$\text{Parte}=\frac {20}{100}\times\text{59.0=99}$$
 $$\text{Parte}=0.2 \cdot 59.99$$
 
-## Esempio
+## 🚀 Esempio
 
 Il 20% di 80 vale:
 
 $$\frac{20}{100}\times80=16$$
 
-## Esercizi
+## 🚀 Esercizi
 
 * Trova il 15% di 200
 * Risolvi la proporzione $3:4=x:20$
