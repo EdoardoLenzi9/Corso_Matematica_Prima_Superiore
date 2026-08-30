@@ -1,0 +1,25 @@
+
+<svg viewBox="0 0 240 170" xmlns="http://www.w3.org/2000/svg">
+  <g font-family="Arial" text-anchor="middle" font-size="12">
+    <circle cx="120" cy="20" r="16" fill="#DBEAFE" stroke="#2563EB"/>
+    <text x="120" y="24">60</text>
+    <line x1="120" y1="36" x2="70" y2="60" stroke="#64748B"/>
+    <line x1="120" y1="36" x2="170" y2="60" stroke="#64748B"/>
+    <circle cx="70" cy="76" r="14" fill="#D1FAE5" stroke="#059669"/>
+    <text x="70" y="80">6</text>
+    <circle cx="170" cy="76" r="14" fill="#FCE7F3" stroke="#DB2777"/>
+    <text x="170" y="80">10</text>
+    <line x1="70" y1="90" x2="45" y2="118" stroke="#64748B"/>
+    <line x1="70" y1="90" x2="95" y2="118" stroke="#64748B"/>
+    <line x1="170" y1="90" x2="145" y2="118" stroke="#64748B"/>
+    <line x1="170" y1="90" x2="195" y2="118" stroke="#64748B"/>
+    <circle cx="45" cy="134" r="12" fill="#FEF3C7" stroke="#D97706"/>
+    <text x="45" y="138">2</text>
+    <circle cx="95" cy="134" r="12" fill="#FEF3C7" stroke="#D97706"/>
+    <text x="95" y="138">3</text>
+    <circle cx="145" cy="134" r="12" fill="#FEF3C7" stroke="#D97706"/>
+    <text x="145" y="138">2</text>
+    <circle cx="195" cy="134" r="12" fill="#FEF3C7" stroke="#D97706"/>
+    <text x="195" y="138">5</text>
+  </g>
+</svg>

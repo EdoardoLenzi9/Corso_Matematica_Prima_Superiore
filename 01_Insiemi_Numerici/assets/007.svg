@@ -1,0 +1,6 @@
+<svg viewBox="0 0 220 180" xmlns="http://www.w3.org/2000/svg">
+  <rect x="40" y="30" width="120" height="120" fill="#EEF2FF" stroke="#1D4ED8" stroke-width="2"/>
+  <line x1="40" y1="150" x2="160" y2="30" stroke="#9f26dc" stroke-width="2"/>
+  <text x="100" y="20" font-size="12" text-anchor="middle" font-family="Arial" fill="#1D4ED8">lato = 1</text>
+  <text x="176" y="92" font-size="12" font-family="Arial" fill="#9f26dc">√2</text>
+</svg>

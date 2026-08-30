@@ -138,7 +138,7 @@ I principali insiemi numerici sono:
 
 | Simbolo | Nome |
 |---|---|
-| $c | Naturali |
+| $$\mathbb N$$ | Naturali |
 | $$\mathbb Z$$ | Interi |
 | $$\mathbb Q$$ | Razionali |
 | $$\mathbb R$$ | Reali |
@@ -161,9 +161,7 @@ $$
 
 Nascono in tempi antichi per contare oggetti
 
-$$
-\mathbb N=\{0,1,2,3,\dots\}
-$$
+$$\mathbb N=\{0,1,2,3,\dots\}$$
 
 ## Rappresentazione
 
@@ -192,9 +190,9 @@ $$x \times y = z\ \Rightarrow\ z \in\mathbb N$$
 
 > 🤔 Domanda: vale lo stesso per la sottrazione? sara' anch'essa operazione `chiusa` in $\mathbb N$? Fai un esempio
 
-# Numeri interi
+# 📌 Numeri interi ($\mathbb Z$)
 
-> 💡 Idea: nasce l'esigenza di definire un'insieme contenente numeri negativi
+> 💡 Idea: nasce l'esigenza di definire un insieme contenente numeri negativi
 
 Come rappresentare debiti, temperature sotto zero e differenze negative?
 
@@ -268,7 +266,7 @@ $$
 * $|-123| = ?$
 * $|+123| = ?$
 * $|(-10) - (+2)| = ?$
-* Risolvi $$|x|=4$$
+* Risolvi $|x|=4$
 
 ## Sottrazione
 
@@ -280,11 +278,11 @@ $$x - y = z\ \Rightarrow\ z \in\mathbb Z$$
 
 ## Divisione
 
-> 🤔 Domanda: vale lo stesso per la divisione? sara' anch'essa operazione `chiusa` in $\mathbb Z$? Fai un esempio
+> 🤔 Domanda: vale lo stesso per la divisione? Sara' anch'essa operazione `chiusa` in $\mathbb Z$? Fai un esempio
 
-# Numeri razionali
+# 📌 Numeri razionali ($\mathbb Q$)
 
-> 💡 Idea: nasce l'esigenza di definire un'insieme contenente i numeri con la virgola
+> 💡 Idea: nasce l'esigenza di definire un insieme contenente i numeri con la virgola
 
 Come rappresentare metà pizza o tre quarti di litro?
 
@@ -300,19 +298,12 @@ $$\mathbb Q \triangleq \{ \frac{a}{b},\ \forall\ a \in\mathbb Z, b \in\mathbb Z,
 
 Due frazioni $\frac{a}{b}, \frac{c}{d}$ si dicono equivalenti se vale: $a\cdot d = c\cdot b$
 
-$$
-\frac12=\frac24=\frac36
-$$
+$$\frac12=\frac24=\frac36$$
 
 ## Esempi
 
-$$
-\frac34+\frac14=1
-$$
-
-$$
-\frac25\times\frac53=\frac23
-$$
+$$\frac34+\frac14=1$$
+$$\frac25\times\frac53=\frac23$$
 
 ## Numeri decimali
 
@@ -328,19 +319,17 @@ $$5 / 10 = \frac{5}{10} = \frac{1}{2} = 0.5$$
 
 Posso sempre convertire una rappresentazione di un numero razionale in un'altra:
 
-$$
-\frac18=1 / 8 = 0.125
-$$
-
-$$
-0.75=75 / 100 = \frac{75}{100} = \frac34
-$$
+$$\frac18=1 / 8 = 0.125$$
+$$0.75=75 / 100 = \frac{75}{100} = \frac34$$
 
 ## Esercizi
 
 * Semplifica $\frac{18}{24}$
 * Confronta $\frac35$ e $\frac47$
 * Verifica l'equivalenza tra $\frac23$ e $\frac46$
+* Trasforma $0.4$ in frazione
+* Scrivi in decimale $\frac58$
+* Riconosci il tipo di $2.13\overline5$
 
 ## Divisione
 
@@ -356,129 +345,85 @@ $$x / y = z\ \Rightarrow\ z \in\mathbb Q$$
 
 ## Numeri periodici
 
+Un numero razionale può avere uno sviluppo decimale **finito** oppure **periodico**
+
 $$ 10 / 3 = \frac{10}{3} = 3.3333333333... = 3.\overline{3}$$
 
-* Un numero si dice `periodico semplice` se ha infinite cifre uguali dopo la virgola $3.333333...,0.1233333...$
-* Un numero di dice `periodico misto` se il suo periodo e' formato da cifre diverse
-
-$$0.4123123123123 = 0.4 \ 123 \ 123 \ 123 \ 123 = 0.4\overline{123}$$
+* Un numero di dice `periodico` se ha un periodo, una sequenza di cifre, che si ripetono all'infinito dopo la virgola
+* Per esempio $34.1234343434343... = 34.12\ 34\ 34\ 34\ 34\ 34 ...$ ha periodo `34` e si indica con $34.12\overline{34}$
+* Un numero si dice `periodico semplice` se il periodo inizia subito dopo la virgola $3.333333...=3.\overline{3}$
+* Un numero di dice `periodico misto` se ci sono delle cifre fra la virgola e il periodo (dette `antiperiodo`) $$0.4123123123123 = 0.4 \ 123 \ 123 \ 123 \ 123 = 0.4\overline{123}$$
 
 > Cosa pensi di numeri come $\pi$, $\sqrt{2}$, $e$, ...
 
-## Conversione
+# 📌 Numeri irrazionali ($\mathbb I$)
 
+> Numeri come $\pi$, $\sqrt{2}$ ed $e$ hanno infinite cifre decimali, 
+> ma **non presentano alcun periodo**: per questo motivo non sono 
+> numeri razionali e appartengono all'insieme dei **numeri irrazionali**
 
+> 💡 Idea: non tutti i numeri si possono costruire tramite una frazione,
+> esistono lunghezze che nessuna frazione può rappresentare
 
-## Esercizi
+## Esempio
 
-1. Trasforma $$0.4$$ in frazione.
-2. Scrivi in decimale $$\frac58$$.
-3. Riconosci il tipo di $$2.13\overline5$$.
+Consideriamo un quadrato di lato 1
 
----
+![](assets/007.svg)
 
-# 7. Numeri irrazionali
+Per il Teorema di Pitagora la sua diagonale vale 
 
-## Motivazione
+$$d^2=1^2+1^2$$
+$$d=\sqrt2$$
 
-Esistono lunghezze che nessuna frazione può rappresentare.
-
-## Esempio fondamentale
-
-Quadrato di lato 1.
-
-<svg viewBox="0 0 220 180" xmlns="http://www.w3.org/2000/svg">
-  <rect x="40" y="30" width="120" height="120" fill="#EEF2FF" stroke="#1D4ED8" stroke-width="2"/>
-  <line x1="40" y1="150" x2="160" y2="30" stroke="#DC2626" stroke-width="2"/>
-  <text x="100" y="20" font-size="12" text-anchor="middle" font-family="Arial">lato = 1</text>
-  <text x="176" y="92" font-size="12" font-family="Arial" fill="#B91C1C">√2</text>
-</svg>
-
-Per Pitagora:
-
-$$
-d^2=1^2+1^2
-$$
-
-quindi
-
-$$
-d=\sqrt2
-$$
-
-Il suo sviluppo decimale è
+Lo sviluppo decimale di $\sqrt2$ e' inifinito non periodico
 
 $$
 1.414213562\dots
 $$
 
-infinito e non periodico.
-
 ## Esercizi
 
-1. Spiega perché $$\sqrt2$$ non è razionale.
-2. Classifica $$\pi$$.
-3. Classifica $$0.1010010001\dots$$
+* Spiega perché $\sqrt2$ non è razionale
+* Classifica $\pi$
+* Classifica $0.1010010001\dots$
 
----
-
-# 8. Numeri reali
-
-## Definizione
+# 📌 Numeri reali ($\mathbb R$)
 
 L'insieme dei reali contiene tutti i razionali e tutti gli irrazionali.
 
 $$
-\mathbb R=\mathbb Q\cup I
+\mathbb R=\mathbb Q\cup \mathbb I
 $$
 
-## Diagramma
+![](assets/008.svg)
 
-<svg viewBox="0 0 340 200" xmlns="http://www.w3.org/2000/svg">
-  <rect x="10" y="10" width="320" height="180" rx="12" fill="#F8FAFC" stroke="#334155"/>
-  <rect x="30" y="30" width="280" height="140" rx="10" fill="#DBEAFE" stroke="#2563EB"/>
-  <rect x="55" y="55" width="150" height="90" rx="8" fill="#D1FAE5" stroke="#059669"/>
-  <text x="170" y="22" text-anchor="middle" font-family="Arial" font-size="13">ℝ</text>
-  <text x="130" y="48" text-anchor="middle" font-family="Arial" font-size="12">ℚ</text>
-  <text x="250" y="100" text-anchor="middle" font-family="Arial" font-size="12">Irrazionali</text>
-  <text x="130" y="92" text-anchor="middle" font-family="Arial" font-size="11">½</text>
-  <text x="130" y="110" text-anchor="middle" font-family="Arial" font-size="11">−3</text>
-  <text x="130" y="128" text-anchor="middle" font-family="Arial" font-size="11">0.75</text>
-  <text x="250" y="120" text-anchor="middle" font-family="Arial" font-size="11">√2</text>
-  <text x="250" y="138" text-anchor="middle" font-family="Arial" font-size="11">π</text>
-</svg>
+> 💡 Idea: La `retta reale` è continua, ogni punto corrisponde a un numero reale
 
-## Idea chiave
+# 📌 Proprieta' delle operazioni
 
-La retta reale è continua: ogni punto corrisponde a un numero reale.
+## Commutativa
 
----
+> 🤏 Definizione: un'operazione gode della proprietà commutativa se, scambiando 
+> l'ordine degli operandi, il risultato non cambia
 
-# 9. Le quattro operazioni
+$$a+b=b+a$$
+$$a\cdot b=b\cdot a$$
 
-## Proprietà fondamentali
+## Associativa
 
-### Commutativa
+> 🤏 Definizione: un'operazione gode della proprietà associativa se, cambiando 
+> il modo in cui gli operandi vengono raggruppati, il risultato non cambia
 
-$$
-a+b=b+a
-$$
+$$(a+b)+c=a+(b+c)$$
 
-$$
-ab=ba
-$$
+## Distributiva
 
-### Associativa
+> 🤏 Definizione: la moltiplicazione è distributiva rispetto all'addizione e 
+> alla sottrazione quando può essere applicata separatamente a ciascun termine 
+> contenuto nelle parentesi
 
-$$
-(a+b)+c=a+(b+c)
-$$
-
-### Distributiva
-
-$$
-a(b+c)=ab+ac
-$$
+$$a(b+c)=ab+ac$$
 
 ## Priorità
 
@@ -487,104 +432,44 @@ $$
 3. Moltiplicazioni e divisioni
 4. Addizioni e sottrazioni
 
-## Esercizio
+> 🤔 Domanda: calcola: 
 
-Calcola
+$$3+4\times(5-2)^2$$
 
-$$
-3+4\times(5-2)^2
-$$
+# Potenze
 
-**Intento:** applicare correttamente le priorità.
-
----
-
-# 10. Potenze
-
-## Definizione
-
-$$
-a^n=\underbrace{a\cdot a\cdot\dots\cdot a}_{n\ volte}
-$$
-
-## Elementi
-
-- Base
-- Esponente
+> 🤏 Definizione: $a^n=\underbrace{a\cdot a\cdot\dots\cdot a}_{n\ volte}$ dove $a$ si dice `base` ed $n$ si dice `esponente`
 
 ## Proprietà
 
-### Prodotto
-
-$$
-a^m\cdot a^n=a^{m+n}
-$$
-
-### Quoziente
-
-$$
-\frac{a^m}{a^n}=a^{m-n}
-$$
-
-### Potenza di potenza
-
-$$
-(a^m)^n=a^{mn}
-$$
-
-### Potenza del prodotto
-
-$$
-(ab)^n=a^nb^n
-$$
-
-## Schema
-
-<svg viewBox="0 0 340 170" xmlns="http://www.w3.org/2000/svg">
-  <rect x="110" y="10" width="120" height="36" rx="8" fill="#DBEAFE" stroke="#2563EB"/>
-  <text x="170" y="28" text-anchor="middle" font-family="Arial" font-size="14">aᵐ</text>
-  <line x1="170" y1="46" x2="90" y2="72" stroke="#64748B"/>
-  <line x1="170" y1="46" x2="250" y2="72" stroke="#64748B"/>
-  <rect x="20" y="72" width="140" height="40" rx="8" fill="#F3E8FF" stroke="#7C3AED"/>
-  <text x="90" y="88" text-anchor="middle" font-family="Arial" font-size="11">× aⁿ</text>
-  <text x="90" y="100" text-anchor="middle" font-family="Arial" font-size="11">aᵐ⁺ⁿ</text>
-  <rect x="180" y="72" width="140" height="40" rx="8" fill="#FCE7F3" stroke="#DB2777"/>
-  <text x="250" y="88" text-anchor="middle" font-family="Arial" font-size="11">( )ⁿ</text>
-  <text x="250" y="100" text-anchor="middle" font-family="Arial" font-size="11">aᵐⁿ</text>
-  <line x1="170" y1="112" x2="170" y2="132" stroke="#64748B"/>
-  <rect x="100" y="132" width="140" height="28" rx="8" fill="#D1FAE5" stroke="#059669"/>
-  <text x="170" y="146" text-anchor="middle" font-family="Arial" font-size="11">(ab)ⁿ = aⁿbⁿ</text>
-</svg>
+* `prodotto` $a^m\cdot a^n=a^{m+n}$
+* `quoziente` $\frac{a^m}{a^n}=a^{m-n}$
+* `potenza di potenza` $(a^m)^n=a^{mn}$
+* `potenza del prodotto` $(ab)^n=a^nb^n$
 
 ## Esercizi
 
-1. $$2^5$$
-2. $$3^2\cdot3^4$$
-3. $$(2^3)^2$$
+1. $2^5$ = ?
+2. $3^2\cdot3^4$ = ?
+3. $(2^3)^2$ = ?
 
----
-
-# 11. Multipli, divisori e numeri primi
+# Multipli, divisori e numeri primi
 
 ## Divisibilità
 
-Un numero $$a$$ è divisibile per $$b$$ se esiste un intero $$k$$ tale che
-
-$$
-a=bk
-$$
+> 🤏 Definizione: un numero $a$ è `divisibile` per $b$ se esiste un intero $$k$$ tale che $a=bk$
 
 ## Numeri primi
 
-Un numero primo possiede esattamente due divisori positivi.
+> 🤏 Definizione: un `numero primo` è un `numero naturale` maggiore di 1 che possiede esattamente due divisori positivi distinti: 1 e se' stesso
 
-Primi fino a 30:
+I numeri primi fino a 30:
 
 $$
 2,3,5,7,11,13,17,19,23,29
 $$
 
-## Criteri essenziali
+Criteri essenziali:
 
 | Numero | Criterio |
 |---|---|
@@ -595,44 +480,17 @@ $$
 
 ## Esercizi
 
-1. È 147 divisibile per 3?
-2. È 250 divisibile per 5?
+1. 147 e' divisibile per 3?
+2. 250 e' divisibile per 5?
 3. 37 è primo?
 
----
+# Scomposizione in fattori primi
 
-# 12. Scomposizione in fattori primi
-
-## Teorema fondamentale
-
-Ogni intero maggiore di 1 si scompone in modo unico come prodotto di numeri primi.
+> 🤏 Definizione - Teorema fondamentale: ogni numero intero maggiore di 1 si `scompone` in modo unico `come prodotto di numeri primi`
 
 ## Albero dei fattori
 
-<svg viewBox="0 0 240 170" xmlns="http://www.w3.org/2000/svg">
-  <g font-family="Arial" text-anchor="middle" font-size="12">
-    <circle cx="120" cy="20" r="16" fill="#DBEAFE" stroke="#2563EB"/>
-    <text x="120" y="24">60</text>
-    <line x1="120" y1="36" x2="70" y2="60" stroke="#64748B"/>
-    <line x1="120" y1="36" x2="170" y2="60" stroke="#64748B"/>
-    <circle cx="70" cy="76" r="14" fill="#D1FAE5" stroke="#059669"/>
-    <text x="70" y="80">6</text>
-    <circle cx="170" cy="76" r="14" fill="#FCE7F3" stroke="#DB2777"/>
-    <text x="170" y="80">10</text>
-    <line x1="70" y1="90" x2="45" y2="118" stroke="#64748B"/>
-    <line x1="70" y1="90" x2="95" y2="118" stroke="#64748B"/>
-    <line x1="170" y1="90" x2="145" y2="118" stroke="#64748B"/>
-    <line x1="170" y1="90" x2="195" y2="118" stroke="#64748B"/>
-    <circle cx="45" cy="134" r="12" fill="#FEF3C7" stroke="#D97706"/>
-    <text x="45" y="138">2</text>
-    <circle cx="95" cy="134" r="12" fill="#FEF3C7" stroke="#D97706"/>
-    <text x="95" y="138">3</text>
-    <circle cx="145" cy="134" r="12" fill="#FEF3C7" stroke="#D97706"/>
-    <text x="145" y="138">2</text>
-    <circle cx="195" cy="134" r="12" fill="#FEF3C7" stroke="#D97706"/>
-    <text x="195" y="138">5</text>
-  </g>
-</svg>
+![](assets/010.svg)
 
 Quindi
 
@@ -642,54 +500,25 @@ $$
 
 ## Esercizi
 
-1. Scomponi 36.
-2. Scomponi 84.
-3. Scrivi 180 in forma canonica.
+* Scomponi 36
+* Scomponi 84
+* Scrivi 180 in `forma canonica` (fattori ordinati in ordine crescente)
 
----
+# Massimo Comune Divisore (`MCD`)
 
-# 13. Massimo Comune Divisore
+> 🤏 Definizione: e' il più grande divisore comune tra due numeri
 
-## Definizione
+Per trovarlo:
+1. Scomponiamo in fattori primi i due numeri
+2. Consideriamo solo gli esponenti minimi dei fattori comuni
 
-È il più grande divisore comune tra due numeri.
-
-## Metodo
-
-Scomponiamo:
-
-$$
-24=2^3\cdot3
-$$
-
-$$
-36=2^2\cdot3^2
-$$
-
-Prendiamo gli esponenti minimi.
-
-$$
-MCD=2^2\cdot3=12
-$$
+$$24=2^3\cdot3$$
+$$36=2^2\cdot3^2$$
+$$MCD=2^2\cdot3=12$$
 
 ## Schema
 
-<svg viewBox="0 0 340 140" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .b{fill:#fff;stroke:#334155}
-    .t{font:12px Arial;text-anchor:middle}
-  </style>
-  <rect class="b" x="18" y="18" width="130" height="104" rx="8"/>
-  <rect class="b" x="192" y="18" width="130" height="104" rx="8"/>
-  <text class="t" x="83" y="36">24</text>
-  <text class="t" x="83" y="54">2³ · 3</text>
-  <text class="t" x="257" y="36">36</text>
-  <text class="t" x="257" y="54">2² · 3²</text>
-  <line x1="148" y1="70" x2="192" y2="70" stroke="#64748B" stroke-dasharray="4 4"/>
-  <text class="t" x="170" y="82" font-size="10">min</text>
-  <rect x="122" y="94" width="96" height="20" rx="6" fill="#D1FAE5" stroke="#059669"/>
-  <text class="t" x="170" y="108" font-size="11">MCD = 12</text>
-</svg>
+
 
 ## Esercizi
 

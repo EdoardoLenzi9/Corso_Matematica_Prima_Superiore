@@ -1,0 +1,16 @@
+<svg viewBox="0 0 340 140" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .b{fill:#fff;stroke:#334155}
+    .t{font:12px Arial;text-anchor:middle}
+  </style>
+  <rect class="b" x="18" y="18" width="130" height="104" rx="8"/>
+  <rect class="b" x="192" y="18" width="130" height="104" rx="8"/>
+  <text class="t" x="83" y="36">24</text>
+  <text class="t" x="83" y="54">2³ · 3</text>
+  <text class="t" x="257" y="36">36</text>
+  <text class="t" x="257" y="54">2² · 3²</text>
+  <line x1="148" y1="70" x2="192" y2="70" stroke="#64748B" stroke-dasharray="4 4"/>
+  <text class="t" x="170" y="82" font-size="10">min</text>
+  <rect x="122" y="94" width="96" height="20" rx="6" fill="#D1FAE5" stroke="#059669"/>
+  <text class="t" x="170" y="108" font-size="11">MCD = 12</text>
+</svg>
