@@ -36,7 +36,7 @@ L'insieme `sport_da_racchetta` ...
 
 > 🤔 Domanda: qual'e' il primo e l'ultimo elemento dell'insieme?
 
-# 📌 $\in$ Appartenenza
+# 📌 Appartenenza ($\in$)
 
 Dato l'insieme `semi_carte_poker` = { ♥️, ♦️, ♠️, ♣️ } 
 
