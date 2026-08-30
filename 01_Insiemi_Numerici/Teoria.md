@@ -494,15 +494,13 @@ Criteri essenziali:
 
 Quindi
 
-$$
-60=2^2\cdot3\cdot5
-$$
+$$60=2^2\cdot3\cdot5$$
 
 ## Esercizi
 
-* Scomponi 36
-* Scomponi 84
-* Scrivi 180 in `forma canonica` (fattori ordinati in ordine crescente)
+* Scomponi 36 in fattori primi
+* Scomponi 84 in fattori primi
+* Scrivi 180 in `forma canonica` (fattori primi `ordinati` in ordine crescente)
 
 # Massimo Comune Divisore (`MCD`)
 
@@ -510,89 +508,29 @@ $$
 
 Per trovarlo:
 1. Scomponiamo in fattori primi i due numeri
-2. Consideriamo solo gli esponenti minimi dei fattori comuni
+2. Consideriamo solo gli `esponenti minimi` dei `fattori primi in comune`
 
 $$24=2^3\cdot3$$
 $$36=2^2\cdot3^2$$
 $$MCD=2^2\cdot3=12$$
 
-## Schema
-
-
-
 ## Esercizi
 
-1. MCD(18,30)
-2. MCD(42,56)
-3. MCD(45,75)
+* MCD(18, 30)
+* MCD(42, 56)
+* MCD(45, 75)
 
-**Intento:** individuare i fattori comuni.
+# Minimo Comune Multiplo (mcm)
 
----
+> 🤏 Definizione: e' il più piccolo multiplo comune tra due numeri
 
-# 14. Minimo Comune Multiplo
+Per trovarlo:
+1. Scomponiamo in fattori primi i due numeri
+2. Consideriamo tutti i fattori primi con `massimi esponenti`
 
-## Definizione
-
-È il più piccolo multiplo comune.
-
-Usando le stesse scomposizioni:
-
-$$
-24=2^3\cdot3
-$$
-
-$$
-36=2^2\cdot3^2
-$$
-
-Prendiamo gli esponenti maggiori.
-
-$$
-mcm=2^3\cdot3^2=72
-$$
-
-## Visualizzazione
-
-<svg viewBox="0 0 340 150" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .axis{stroke:#111827;stroke-width:1.5}
-    .tick{stroke:#64748B}
-    .lbl{font:9px Arial;fill:#374151;text-anchor:middle}
-    .m24{fill:#2563EB}
-    .m36{fill:#DC2626}
-    .both{fill:#059669}
-  </style>
-  <line class="axis" x1="20" y1="50" x2="320" y2="50"/>
-  <line class="axis" x1="20" y1="105" x2="320" y2="105"/>
-  <text x="8" y="53" font-size="9" font-family="Arial">24</text>
-  <text x="8" y="108" font-size="9" font-family="Arial">36</text>
-  <g>
-    <line class="tick" x1="20" y1="44" x2="20" y2="56"/>
-    <line class="tick" x1="120" y1="44" x2="120" y2="56"/>
-    <line class="tick" x1="220" y1="44" x2="220" y2="56"/>
-    <line class="tick" x1="320" y1="44" x2="320" y2="56"/>
-    <text class="lbl" x="20" y="68">0</text>
-    <text class="lbl" x="120" y="68">24</text>
-    <text class="lbl" x="220" y="68">48</text>
-    <text class="lbl" x="320" y="68">72</text>
-  </g>
-  <g>
-    <line class="tick" x1="20" y1="99" x2="20" y2="111"/>
-    <line class="tick" x1="170" y1="99" x2="170" y2="111"/>
-    <line class="tick" x1="320" y1="99" x2="320" y2="111"/>
-    <text class="lbl" x="20" y="123">0</text>
-    <text class="lbl" x="170" y="123">36</text>
-    <text class="lbl" x="320" y="123">72</text>
-  </g>
-  <circle class="m24" cx="120" cy="50" r="4"/>
-  <circle class="m24" cx="220" cy="50" r="4"/>
-  <circle class="both" cx="320" cy="50" r="5"/>
-  <circle class="m36" cx="170" cy="105" r="4"/>
-  <circle class="both" cx="320" cy="105" r="5"/>
-  <line x1="320" y1="55" x2="320" y2="100" stroke="#059669" stroke-dasharray="3 3"/>
-  <text x="320" y="16" font-size="10" text-anchor="middle" font-family="Arial" fill="#047857">primo comune</text>
-</svg>
+$$24=2^3\cdot3$$
+$$36=2^2\cdot3^2$$
+$$mcm(24, 36) = 2^3\cdot3^2=72$$
 
 ## Esercizi
 
@@ -600,117 +538,50 @@ $$
 2. mcm(15,20)
 3. mcm(18,30)
 
----
+# Rapporti, proporzioni e percentuali
 
-# 15. Rapporti, proporzioni e percentuali
+> 🤏 Definizione: un `rapporto` e' il `quoziente` tra due
+> grandezze
 
-## Rapporto
+$$a:b=\frac ab$$
 
-È il quoziente tra due grandezze.
+> 🤏 Definizione: una `proporzione` e' un'uguaglianza fra 
+> rapporti
 
-$$
-a:b=\frac ab
-$$
+$$a:b=c:d$$
 
-## Proporzione
-
-Una proporzione è un'uguaglianza tra rapporti.
-
-$$
-a:b=c:d
-$$
-
-Proprietà fondamentale:
-
-$$
-ad=bc
-$$
+> Dove vale la `proprietà fondamentale`: $ad=bc$
 
 ## Esempio
 
-$$
-2:5=8:20
-$$
-
-infatti
-
-$$
-2\cdot20=5\cdot8
-$$
+$$2:5=8:20$$
+$$\frac{2}{5}=\frac{8}{20}$$
+$$20\cdot\frac{2}{5}=20\cdot\frac{8}{20}$$
+$$\frac{20\cdot2}{5}=\frac{8}{1}$$
+$$5\cdot\frac{20\cdot2}{5}=5\cdot\frac{8}{1}$$
+$$2\cdot20=5\cdot8$$
 
 ## Percentuale
 
-Una percentuale rappresenta una frazione su 100.
+Una percentuale rappresenta una frazione su 100
 
-$$
-p\%=\frac p{100}
-$$
+$$p\%=\frac p{100}$$
 
-### Formula generale
+Se applico una percentuale ad un numero ottengo una parte 
+(i.e. 20% di sconto del prezzo (59.99 €))
 
-$$
-\text{Parte}=\frac p{100}\times\text{Totale}
-$$
+$$\text{Parte}=\frac p{100}\times\text{Totale}$$
+$$\text{Parte}=\frac {20}{100}\times\text{59.0=99}$$
+$$\text{Parte}=0.2 \cdot 59.99$$
 
-### Esempio
+## Esempio
 
-Il 20% di 80:
+Il 20% di 80 vale:
 
-$$
-\frac{20}{100}\times80=16
-$$
+$$\frac{20}{100}\times80=16$$
 
 ## Esercizi
 
-1. Trova il 15% di 200.
-2. Risolvi la proporzione $$3:4=x:20$$.
-3. Calcola lo sconto del 25% su 60 €.
-
-**Intento:** modellizzare situazioni reali.
-
----
-
-# Conclusione del modulo
-
-<svg viewBox="0 0 700 120" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .b{fill:#F8FAFC;stroke:#334155;stroke-width:1.2}
-    .t{font:12px Arial;text-anchor:middle}
-    .a{stroke:#64748B;stroke-width:1.2;marker-end:url(#m)}
-  </style>
-  <defs>
-    <marker id="m" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
-      <path d="M0,0 L8,4 L0,8 Z" fill="#64748B"/>
-    </marker>
-  </defs>
-  <rect class="b" x="20" y="35" width="90" height="40" rx="8"/>
-  <text class="t" x="65" y="55">Naturali</text>
-  <rect class="b" x="130" y="35" width="70" height="40" rx="8"/>
-  <text class="t" x="165" y="55">Interi</text>
-  <rect class="b" x="220" y="35" width="90" height="40" rx="8"/>
-  <text class="t" x="265" y="55">Razionali</text>
-  <rect class="b" x="330" y="35" width="100" height="40" rx="8"/>
-  <text class="t" x="380" y="55">Irrazionali</text>
-  <rect class="b" x="450" y="35" width="70" height="40" rx="8"/>
-  <text class="t" x="485" y="55">Reali</text>
-  <rect class="b" x="540" y="35" width="140" height="40" rx="8"/>
-  <text class="t" x="610" y="49">Calcolo</text>
-  <text class="t" x="610" y="63" font-size="10">MCD • mcm • %</text>
-  <line class="a" x1="110" y1="55" x2="130" y2="55"/>
-  <line class="a" x1="200" y1="55" x2="220" y2="55"/>
-  <line class="a" x1="310" y1="55" x2="330" y2="55"/>
-  <line class="a" x1="430" y1="55" x2="450" y2="55"/>
-  <line class="a" x1="520" y1="55" x2="540" y2="55"/>
-</svg>
-
-## Competenze acquisite
-
-- Comprendere la struttura degli insiemi numerici.
-- Rappresentare i numeri sulla retta reale.
-- Eseguire operazioni con interi e razionali.
-- Utilizzare correttamente potenze e loro proprietà.
-- Scomporre numeri in fattori primi.
-- Calcolare MCD e mcm con metodo rigoroso.
-- Risolvere problemi con rapporti, proporzioni e percentuali.
-
-> Questo costituisce un primo modulo completo di aritmetica per il primo anno del Liceo Scientifico, progettato per introdurre tutti i concetti fondamentali senza salti logici.
+* Trova il 15% di 200
+* Risolvi la proporzione $3:4=x:20$
+* Calcola lo sconto del 25% su 60 €
