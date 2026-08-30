@@ -126,7 +126,8 @@ $$ A = \lbrace 2, gatto, \pi, \triangle \rbrace $$
 
 # 📌 Definizione induttiva
 
-> "_L'insieme dei Numeri Naturali $\mathbb N$ ha origine da `0`; ogni numero naturale possiede un `successore`, ottenuto `aggiungendo 1`_"
+> 💡 Idea: "_L'insieme dei Numeri Naturali $\mathbb N$ ha origine da `0`; ogni numero naturale possiede 
+> un `successore`, ottenuto `aggiungendo 1`_"
 
 $$0\in\mathbb N$$
 $$n\in\mathbb N\Rightarrow S(n)\in\mathbb N$$
@@ -334,7 +335,7 @@ $$0.75=75 / 100 = \frac{75}{100} = \frac34$$
 Nell'insieme dei numeri razionali la `divisione` si definisce operazione `chiusa` per 
 definizione dell'insieme
 
-$$x\in\mathbb Q,\ y\in\mathbb Q$$
+$$x\in\mathbb Q,\ y\in\mathbb Q, y\not=0$$
 
 $$x / y = z\ \Rightarrow\ z \in\mathbb Q$$
 
@@ -343,11 +344,12 @@ $$x / y = z\ \Rightarrow\ z \in\mathbb Q$$
 
 ## 📚 Numeri periodici
 
-Un numero razionale può avere uno sviluppo decimale **finito** oppure **periodico**
+> 💡 Idea:  un numero e' razionale **se e solo se** il suo sviluppo decimale e' 
+> **finito** oppure **periodico**
 
 $$ 10 / 3 = \frac{10}{3} = 3.3333333333... = 3.\overline{3}$$
 
-* Un numero di dice `periodico` se ha un periodo, una sequenza di cifre, che si ripetono all'infinito dopo la virgola
+* Un numero si dice `periodico` se ha un periodo, una sequenza di cifre, che si ripetono all'infinito dopo la virgola
 * Per esempio $34.1234343434343... = 34.12\ 34\ 34\ 34\ 34\ 34 ...$ ha periodo `34` e si indica con $34.12\overline{34}$
 * Un numero si dice `periodico semplice` se il periodo inizia subito dopo la virgola $3.333333...=3.\overline{3}$
 * Un numero di dice `periodico misto` se ci sono delle cifre fra la virgola e il periodo (dette `antiperiodo`) $$0.4123123123123 = 0.4 \ 123 \ 123 \ 123 \ 123 = 0.4\overline{123}$$
@@ -357,8 +359,11 @@ $$ 10 / 3 = \frac{10}{3} = 3.3333333333... = 3.\overline{3}$$
 # 📌 Numeri irrazionali ($\mathbb I$)
 
 > Numeri come $\pi$, $\sqrt{2}$ ed $e$ hanno infinite cifre decimali, 
-> ma **non presentano alcun periodo**: per questo motivo non sono 
+> ma **non presentano alcun periodo**: per questo motivo **non** sono 
 > numeri razionali e appartengono all'insieme dei **numeri irrazionali**
+
+$$\pi,\ \sqrt{2},\ e\ \dots \not\in\mathbb Q$$
+$$\mathbb Q \cap \mathbb I=\empty$$
 
 > 💡 Idea: non tutti i numeri si possono costruire tramite una frazione,
 > esistono lunghezze che nessuna frazione può rappresentare
@@ -436,10 +441,12 @@ $$3+4\times(5-2)^2$$
 
 # 📌 Potenze
 
-> 🤏 Definizione: $a^n=\underbrace{a\cdot a\cdot\dots\cdot a}_{n\ volte}$ dove $a$ si dice `base` ed $n$ si dice `esponente`
+> 🤏 Idea: $a^n=\underbrace{a\cdot a\cdot\dots\cdot a}_{n\ volte}$ dove $a$ si dice `base` ed $n$ si dice `esponente`
 
 ## 📚 Proprietà
 
+* $a^0 = 1\ (a\not=0)$
+* $a^{-n} = \frac{1}{a^n}\ (a\not=0)$
 * `prodotto` $a^m\cdot a^n=a^{m+n}$
 * `quoziente` $\frac{a^m}{a^n}=a^{m-n}$
 * `potenza di potenza` $(a^m)^n=a^{mn}$
@@ -484,7 +491,7 @@ Criteri essenziali:
 
 # 📌 Scomposizione in fattori primi
 
-> 🤏 Definizione - Teorema fondamentale: ogni numero intero maggiore di 1 si `scompone` in modo unico `come prodotto di numeri primi`
+> 🤏 Definizione - Teorema fondamentale: ogni numero naturale maggiore di 1 si `scompone` in modo unico `come prodotto di numeri primi`
 
 ## Albero dei fattori
 
@@ -499,6 +506,11 @@ $$60=2^2\cdot3\cdot5$$
 * Scomponi 36 in fattori primi
 * Scomponi 84 in fattori primi
 * Scrivi 180 in `forma canonica` (fattori primi `ordinati` in ordine crescente)
+
+## Forma canonica
+
+$$n = p_1^{\alpha_1} + p_2^{\alpha_2} + p_3^{\alpha_3} + ... = \sum_i{p_i^{\alpha_i}}$$
+$$p_1​<p_2​< ... <p_k​$$
 
 # 📌 Massimo Comune Divisore (`MCD`)
 
@@ -569,7 +581,7 @@ Se applico una percentuale ad un numero ottengo una parte
 (i.e. 20% di sconto del prezzo (59.99 €))
 
 $$\text{Parte}=\frac p{100}\times\text{Totale}$$
-$$\text{Parte}=\frac {20}{100}\times\text{59.0=99}$$
+$$\text{Parte}=\frac {20}{100}\times\text{59.99}$$
 $$\text{Parte}=0.2 \cdot 59.99$$
 
 ## 🚀 Esempio
