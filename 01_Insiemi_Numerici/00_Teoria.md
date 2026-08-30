@@ -493,7 +493,7 @@ Criteri essenziali:
 
 > 🤏 Definizione - Teorema fondamentale: ogni numero naturale maggiore di 1 si `scompone` in modo unico `come prodotto di numeri primi`
 
-## Albero dei fattori
+## 📚 Albero dei fattori
 
 ![](assets/010.svg)
 
@@ -507,9 +507,12 @@ $$60=2^2\cdot3\cdot5$$
 * Scomponi 84 in fattori primi
 * Scrivi 180 in `forma canonica` (fattori primi `ordinati` in ordine crescente)
 
-## Forma canonica
+## 📚 Forma canonica
 
-$$n = p_1^{\alpha_1} + p_2^{\alpha_2} + p_3^{\alpha_3} + ... = \sum_i{p_i^{\alpha_i}}$$
+> 🤏 Definizione: la forma canonica di un numero naturale $n>1$ è la sua scomposizione in fattori primi, 
+> nella quale i fattori primi sono raccolti in potenze e ordinati in senso crescente.
+
+$$n = p_1^{\alpha_1} \cdot p_2^{\alpha_2} \cdot p_3^{\alpha_3} \cdot ... = \Pi_i{p_i^{\alpha_i}}$$
 $$p_1​<p_2​< ... <p_k​$$
 
 # 📌 Massimo Comune Divisore (`MCD`)
