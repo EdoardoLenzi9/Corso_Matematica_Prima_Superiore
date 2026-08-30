@@ -598,3 +598,81 @@ $$\frac{20}{100}\times80=16$$
 * Trova il 15% di 200
 * Risolvi la proporzione $3:4=x:20$
 * Calcola lo sconto del 25% su 60 €
+
+# 📌 Riepilogo
+
+Abbiamo imparato che:
+
+* un `insieme` è una collezione di elementi che condividono determinate proprietà
+* gli elementi possono `appartenere` oppure `non appartenere` a un insieme
+* due insiemi sono `uguali` se contengono esattamente gli stessi elementi, indipendentemente dall'ordine
+* due insiemi sono `equivalenti` se esiste una corrispondenza biunivoca tra i loro elementi
+* la `cardinalità` di un insieme indica il numero dei suoi elementi
+* un insieme può contenere a sua volta altri `insiemi` come elementi
+* un insieme può essere definito in modo `estensivo`, elencandone gli elementi, oppure attraverso le `proprietà` che li caratterizzano
+* una `definizione induttiva` permette di costruire un insieme specificando un elemento iniziale e una regola per ottenere i successivi
+* i principali `insiemi numerici` sono $\mathbb N$, $\mathbb Z$, $\mathbb Q$ e $\mathbb R$
+* vale la relazione:
+  $$\mathbb N\subset\mathbb Z\subset\mathbb Q\subset\mathbb R$$
+* i `numeri naturali` $\mathbb N$ permettono di rappresentare quantità intere non negative e sono chiusi rispetto ad addizione e moltiplicazione
+* i `numeri interi` $\mathbb Z$ estendono i naturali introducendo anche i numeri negativi
+* due numeri interi sono `opposti` se la loro somma è zero
+* il `valore assoluto` $|x|$ rappresenta la distanza del numero $x$ dall'origine:
+  $$|x|\ge0$$
+* nei numeri interi la sottrazione è un'operazione `chiusa`, mentre la divisione non lo è
+* i `numeri razionali` $\mathbb Q$ sono numeri esprimibili come rapporto tra due interi, con denominatore diverso da zero:
+  $$\mathbb Q=\left\{\frac ab\mid a,b\in\mathbb Z,\ b\not=0\right\}$$
+* un numero razionale può essere rappresentato come `frazione`, `frazione equivalente` oppure `numero decimale`
+* lo sviluppo decimale di un numero razionale è `finito` oppure `periodico`
+* i `numeri irrazionali` $\mathbb I$ sono numeri reali che non possono essere espressi come rapporto tra due interi e hanno sviluppo decimale infinito non periodico
+* esempi di numeri irrazionali sono $\pi$, $\sqrt2$ ed $e$
+* i `numeri reali` $\mathbb R$ comprendono sia i razionali sia gli irrazionali:
+  $$\mathbb R=\mathbb Q\cup\mathbb I$$
+* la `retta reale` è continua e ogni suo punto corrisponde a un numero reale
+* le principali proprietà delle operazioni sono `commutativa`, `associativa` e `distributiva`
+* nelle espressioni aritmetiche bisogna rispettare le `priorità`:
+
+  1. Parentesi
+  2. Potenze
+  3. Moltiplicazioni e divisioni
+  4. Addizioni e sottrazioni
+* una `potenza` rappresenta una moltiplicazione ripetuta dello stesso fattore:
+  $$a^n=\underbrace{a\cdot a\cdot\dots\cdot a}_{n\ volte}$$
+* le potenze rispettano proprietà specifiche per `prodotto`, `quoziente`, `potenza di potenza` e `potenza del prodotto`
+* un numero è `divisibile` per un altro se può essere scritto come loro prodotto:
+  $$a=bk$$
+* un `numero primo` è un numero naturale maggiore di 1 che possiede esattamente due divisori positivi distinti: 1 e se stesso
+* ogni numero naturale maggiore di 1 può essere scomposto in modo unico come `prodotto di numeri primi`
+* la `forma canonica` raccoglie i fattori primi in potenze e li ordina in senso crescente
+* il `MCD` è il più grande divisore comune tra due o più numeri
+* per calcolare il MCD tramite la scomposizione in fattori primi si prendono i fattori comuni con `esponente minimo`
+* il `mcm` è il più piccolo multiplo comune tra due o più numeri
+* per calcolare il mcm tramite la scomposizione in fattori primi si prendono tutti i fattori con `esponente massimo`
+* un `rapporto` è il quoziente tra due grandezze:
+  $$a:b=\frac ab$$
+* una `proporzione` è un'uguaglianza tra rapporti:
+  $$a:b=c:d$$
+* in una proporzione vale la `proprietà fondamentale`:
+  $$ad=bc$$
+* una `percentuale` rappresenta una frazione con denominatore 100:
+  $$p\%=\frac p{100}$$
+
+> 💡 Idea: gli insiemi numerici nascono progressivamente per **estendere** ciò che possiamo rappresentare e calcolare.
+
+$$
+\boxed{
+\mathbb N\subset\mathbb Z\subset\mathbb Q\subset\mathbb R
+}
+$$
+
+Ogni estensione risponde a una nuova esigenza:
+
+$$
+\mathbb N
+\xrightarrow{\text{sottrazione}}
+\mathbb Z
+\xrightarrow{\text{divisione}}
+\mathbb Q
+\xrightarrow{\text{numeri irrazionali}}
+\mathbb R
+$$
