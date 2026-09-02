@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="900"
+     height="420"
+     viewBox="0 0 900 420">
+
+  <defs>
+    <marker id="arrow"
+            markerWidth="10"
+            markerHeight="10"
+            refX="8"
+            refY="3"
+            orient="auto"
+            markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- Titolo -->
+  <text x="450"
+        y="55"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="30"
+        font-weight="bold">
+    Struttura di un monomio
+  </text>
+
+  <!-- Monomio -->
+  <text x="450"
+        y="155"
+        text-anchor="middle"
+        font-family="Times New Roman, serif"
+        font-size="64">
+    −7x²y³
+  </text>
+
+  <!-- Separatore visivo -->
+  <line x1="450"
+        y1="175"
+        x2="450"
+        y2="230"
+        stroke="#333"
+        stroke-width="2"
+        marker-end="url(#arrow)"/>
+
+  <!-- Coefficiente -->
+  <rect x="105"
+        y="265"
+        width="260"
+        height="90"
+        rx="15"
+        fill="none"
+        stroke="#333"
+        stroke-width="2"/>
+
+  <text x="235"
+        y="300"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="20"
+        font-weight="bold">
+    COEFFICIENTE
+  </text>
+
+  <text x="235"
+        y="335"
+        text-anchor="middle"
+        font-family="Times New Roman, serif"
+        font-size="34">
+    −7
+  </text>
+
+  <!-- Parte letterale -->
+  <rect x="535"
+        y="265"
+        width="260"
+        height="90"
+        rx="15"
+        fill="none"
+        stroke="#333"
+        stroke-width="2"/>
+
+  <text x="665"
+        y="300"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="20"
+        font-weight="bold">
+    PARTE LETTERALE
+  </text>
+
+  <text x="665"
+        y="335"
+        text-anchor="middle"
+        font-family="Times New Roman, serif"
+        font-size="34">
+    x²y³
+  </text>
+
+</svg>
