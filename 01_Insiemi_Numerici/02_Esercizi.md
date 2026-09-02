@@ -6,7 +6,7 @@
 
 Considera l'insieme:
 
-$$B=\{2,\ 4,\ 6,\ 8,\ 10\}$$
+$$B=\lbrace2,\ 4,\ 6,\ 8,\ 10\rbrace$$
 
 Trova una proprietà comune che permetta di descrivere tutti e soli gli elementi di $B$.
 
