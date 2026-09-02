@@ -668,11 +668,19 @@ $$
 Ogni estensione risponde a una nuova esigenza:
 
 $$
+\qquad
 \mathbb N
+\qquad
 \xrightarrow{\text{sottrazione}}
+\qquad
 \mathbb Z
+\qquad
 \xrightarrow{\text{divisione}}
+\qquad
 \mathbb Q
+\qquad
 \xrightarrow{\text{numeri irrazionali}}
+\qquad
 \mathbb R
+\qquad
 $$
