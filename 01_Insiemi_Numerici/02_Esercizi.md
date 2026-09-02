@@ -29,7 +29,7 @@ Motiva le risposte.
 
 Considera:
 
-$$A=\{1,\ gatto,\ \pi,\ \triangle\}$$
+$$A=\lbrace1,\ gatto,\ \pi,\ \triangle\rbrace$$
 
 Gli elementi di un insieme devono necessariamente essere dello stesso tipo? Spiega.
 
@@ -39,7 +39,7 @@ Gli elementi di un insieme devono necessariamente essere dello stesso tipo? Spie
 
 Dato:
 
-$$A=\{2,4,6,8,10\}$$
+$$A=\lbrace2,4,6,8,10\rbrace$$
 
 stabilisci quali delle seguenti affermazioni sono vere:
 
@@ -52,11 +52,11 @@ stabilisci quali delle seguenti affermazioni sono vere:
 
 Trova un elemento $x$ tale che:
 
-- $x\in\{1,3,5,7,9\}$
+- $x\in\lbrace1,3,5,7,9\rbrace$
 
 e un elemento $y$ tale che:
 
-- $y\notin\{1,3,5,7,9\}$
+- $y\notin\lbrace1,3,5,7,9\rbrace$
 
 # 📌 Uguaglianza tra insiemi
 
@@ -64,7 +64,7 @@ e un elemento $y$ tale che:
 
 Stabilire se:
 
-$$\{1,2,3\}=\{3,2,1\}$$
+$$\lbrace1,2,3\rbrace=\lbrace3,2,1\rbrace$$
 
 Motivare la risposta.
 
@@ -72,13 +72,13 @@ Motivare la risposta.
 
 Stabilire se:
 
-$$\{1,2,2,3\}=\{1,2,3\}$$
+$$\lbrace1,2,2,3\rbrace=\lbrace1,2,3\rbrace$$
 
 ## 🚀 Esercizio
 
 Spiega perché:
 
-$$\{1,2,3\}\neq\{1,2,4\}$$
+$$\lbrace1,2,3\rbrace\neq\lbrace1,2,4\rbrace$$
 
 # 📌 Cardinalità
 
@@ -86,15 +86,15 @@ $$\{1,2,3\}\neq\{1,2,4\}$$
 
 1. Calcola:
 
-   $$|\{2,4,6,8\}|$$
+   $$|\lbrace2,4,6,8\rbrace|$$
 
 2. Calcola:
 
-   $$|\{1,1,2,2,3,3\}|$$
+   $$|\lbrace1,1,2,2,3,3\rbrace|$$
 
 4. Considera:
 
-   $$A=\{1,\{2,3\},\{4,\{5\}\}\}$$
+   $$A=\lbrace1,\lbrace2,3\rbrace,\lbrace4,\lbrace5\rbrace\rbrace\rbrace$$
 
    Calcola $|A|$.
 

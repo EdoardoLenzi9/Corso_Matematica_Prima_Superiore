@@ -22,13 +22,13 @@ L'insieme `semi_carte_poker` $\triangleq$ { semi di carte da gioco / usati nel p
 
 ## 🚀 Esempio
 
-L'insieme `lettere_maiuscole` $\triangleq \{ ??? \} \triangleq \{ ?, ?, ? \}$ 
+L'insieme `lettere_maiuscole` $\triangleq \lbrace ??? \rbrace \triangleq \lbrace ?, ?, ? \rbrace$ 
 
 * Nome: `lettere_maiuscole`
 * Simbolo: 🅰
-* Definizione: $\{ ??? \}$
+* Definizione: $\lbrace ??? \rbrace$
 * Proprieta' comune: ???
-* Elementi: $\{ ?, ?, ? \}$
+* Elementi: $\lbrace ?, ?, ? \rbrace$
 
 ## 🚀 Esempio
 
@@ -54,8 +54,8 @@ Dato l'insieme `semi_carte_poker` = { ♥️, ♦️, ♠️, ♣️ }
 
 Consideriamo gli insiemi `A` e `B`
 
-$$A = \{1,2,3\} $$
-$$B = \{2,3,1\} $$
+$$A = \lbrace1,2,3\rbrace $$
+$$B = \lbrace2,3,1\rbrace $$
 
 > 🤔 Domanda: questi due insiemi sono uguali ( $B = A$ )? 
 
@@ -63,8 +63,8 @@ $$B = \{2,3,1\} $$
 
 Consideriamo gli insiemi `A` e `B`
 
-$$A = \{1,2,3\} $$
-$$B = \{1,4,9\} $$
+$$A = \lbrace1,2,3\rbrace $$
+$$B = \lbrace1,4,9\rbrace $$
 
 > 🤔 Domanda: questi due insiemi sono equivalenti? ( $B \sim A$ )? 
 
@@ -80,7 +80,7 @@ possiamo dire che $A\sim B$
 
 > 🤏 Definizione: La `cardinalita'` di un insieme e' il numero di elementi che esso contiene
 
-Per esempio la cardinalita' dell'insieme $A$ = \{1,2,4\}$ vale `3`; formalmente $|A| = 3$.
+Per esempio la cardinalita' dell'insieme $A$ = \lbrace1,2,4\rbrace$ vale `3`; formalmente $|A| = 3$.
 
 Mentre $|$ { ♥️, ♦️, ♠️, ♣️ } $| = 4$.
 
@@ -90,7 +90,7 @@ Mentre $|$ { ♥️, ♦️, ♠️, ♣️ } $| = 4$.
 
 Un elemento di un insieme puo' essere a sua volta un insieme; in questo caso si parla di insiemi annidati:
 
-$$A = \{ \{ 1 \}, \{ 2, 3 \}, \{ 4, \{ 5 \} \} \}$$
+$$A = \lbrace \lbrace 1 \rbrace, \lbrace 2, 3 \rbrace, \lbrace 4, \lbrace 5 \rbrace \rbrace \rbrace$$
 
 > 🤔 Domanda: quanto vale $| A |$ ?
 
@@ -98,7 +98,7 @@ Gli elementi di A sono: `{1}` `{2,3}` `{4,{5}}`
 
 Quindi:
 
-$$ \{1\}\in A $$ $$ \{2,3\}\in A $$ $$ \{4,\{5\}\}\in A. $$
+$$ \lbrace1\rbrace\in A $$ $$ \lbrace2,3\rbrace\in A $$ $$ \lbrace4,\lbrace5\rbrace\rbrace\in A. $$
 
 Ma:
 
@@ -116,7 +116,7 @@ $$1\not\in A$$
 
 > 🤏 Definizione formale: un `insieme` è una `collezione` (non ordinata) di `oggetti distinti`, detti `elementi`, tale che sia possibile stabilire in modo non ambiguo se un determinato oggetto `appartiene` oppure no all'insieme.
 
-> 🤔 Domanda: queso insieme $A = \{ 1, 2, 1\}$ e' ben definito? 
+> 🤔 Domanda: queso insieme $A = \lbrace 1, 2, 1\rbrace$ e' ben definito? 
 
 >💡 Idea: posso pensare quindi di definire in modo `estensivo` un insieme elencando uno ad uno i suoi elementi. In questo modo potrei definire anche insiemi `eterogenei`, come:
 
@@ -162,7 +162,7 @@ $$
 
 Nascono in tempi antichi per contare oggetti
 
-$$\mathbb N=\{0,1,2,3,\dots\}$$
+$$\mathbb N=\lbrace0,1,2,3,\dots\rbrace$$
 
 ## 📚 Rappresentazione
 
@@ -200,7 +200,7 @@ Come rappresentare debiti, temperature sotto zero e differenze negative?
 ## 📚 Rappresentazione
 
 $$
-\mathbb Z \triangleq \{\dots,-3,-2,-1,0,1,2,3,\dots\}
+\mathbb Z \triangleq \lbrace\dots,-3,-2,-1,0,1,2,3,\dots\rbrace
 $$
 
 ![](assets/004.svg)
@@ -289,7 +289,7 @@ Come rappresentare metà pizza o tre quarti di litro?
 
 >🤏 Definizione: Un `numero razionale` è un rapporto tra due interi
 
-$$\mathbb Q \triangleq \{ \frac{a}{b},\ \forall\ a \in\mathbb Z, b \in\mathbb Z, b \not = 0 \}$$
+$$\mathbb Q \triangleq \lbrace \frac{a}{b},\ \forall\ a \in\mathbb Z, b \in\mathbb Z, b \not = 0 \rbrace$$
 
 ![](assets/004.svg)
 
@@ -621,7 +621,7 @@ Abbiamo imparato che:
   $$|x|\ge0$$
 * nei numeri interi la sottrazione è un'operazione `chiusa`, mentre la divisione non lo è
 * i `numeri razionali` $\mathbb Q$ sono numeri esprimibili come rapporto tra due interi, con denominatore diverso da zero:
-  $$\mathbb Q=\left\{\frac ab\mid a,b\in\mathbb Z,\ b\not=0\right\}$$
+  $$\mathbb Q=\left\lbrace\frac ab\mid a,b\in\mathbb Z,\ b\not=0\right\rbrace$$
 * un numero razionale può essere rappresentato come `frazione`, `frazione equivalente` oppure `numero decimale`
 * lo sviluppo decimale di un numero razionale è `finito` oppure `periodico`
 * i `numeri irrazionali` $\mathbb I$ sono numeri reali che non possono essere espressi come rapporto tra due interi e hanno sviluppo decimale infinito non periodico
