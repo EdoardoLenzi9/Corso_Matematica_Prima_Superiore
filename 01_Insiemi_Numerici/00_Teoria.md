@@ -1,5 +1,56 @@
 # 🎓 Lezione: Insiemi Numerici
 
+- [🎓 Lezione: Insiemi Numerici](#-lezione-insiemi-numerici)
+- [📌 Insieme](#-insieme)
+  - [🚀 Esempi](#-esempio)
+- [📌 Appartenenza (∈)](#-appartenenza-)
+- [📌 Uguaglianza](#-uguaglianza)
+- [📌 Cardinalità](#-cardinalita)
+- [📌 Definizione di insieme](#-definizione-di-insieme)
+- [📌 Definizione induttiva](#-definizione-induttiva)
+- [📌 Insiemi numerici](#-insiemi-numerici)
+- [📌 Numeri naturali (ℕ)](#-numeri-naturali-n)
+  - [📚 Rappresentazione](#-rappresentazione)
+  - [📚 Addizione](#-addizione)
+  - [📚 Moltiplicazione](#-moltiplicazione)
+  - [📚 Sottrazione](#-sottrazione)
+- [📌 Numeri interi (ℤ)](#-numeri-interi-z)
+  - [📚 Rappresentazione](#-rappresentazione-1)
+  - [📚 Addizione e moltiplicazione](#-addizione-e-moltiplicazione)
+  - [📚 Valore assoluto](#-valore-assoluto)
+  - [🚀 Esercizi](#-esercizi)
+  - [📚 Sottrazione](#-sottrazione-1)
+  - [📚 Divisione](#-divisione)
+- [📌 Numeri razionali (ℚ)](#-numeri-razionali-q)
+  - [📚 Frazioni equivalenti](#-frazioni-equivalenti)
+  - [📚 Numeri decimali](#-numeri-decimali)
+  - [📚 Divisione](#-divisione-1)
+  - [📚 Numeri periodici](#-numeri-periodici)
+  - [🚀 Esercizi](#-esercizi-1)
+- [📌 Numeri irrazionali (𝕀)](#-numeri-irrazionali-i)
+  - [🚀 Esempio](#-esempio-1)
+  - [🚀 Esercizi](#-esercizi-2)
+- [📌 Numeri reali (ℝ)](#-numeri-reali-r)
+- [📌 Proprietà delle operazioni](#-proprieta-delle-operazioni)
+  - [📚 Commutativa](#-commutativa)
+  - [📚 Associativa](#-associativa)
+  - [📚 Distributiva](#-distributiva)
+  - [📚 Priorità](#-priorita)
+- [📌 Potenze](#-potenze)
+  - [📚 Proprietà](#-proprieta)
+  - [🚀 Esercizi](#-esercizi-3)
+- [📌 Multipli, divisori e numeri primi](#-multipli-divisori-e-numeri-primi)
+  - [📚 Divisibilità](#-divisibilita)
+  - [📚 Numeri primi](#-numeri-primi)
+- [📌 Scomposizione in fattori primi](#-scomposizione-in-fattori-primi)
+  - [📚 Albero dei fattori](#-albero-dei-fattori)
+  - [📚 Forma canonica](#-forma-canonica)
+- [📌 Massimo Comune Divisore (MCD)](#-massimo-comune-divisore-mcd)
+- [📌 Minimo Comune Multiplo (mcm)](#-minimo-comune-multiplo-mcm)
+- [📌 Rapporti, proporzioni e percentuali](#-rapporti-proporzioni-e-percentuali)
+  - [📚 Percentuale](#-percentuale)
+- [📌 Riepilogo](#-riepilogo)
+
 > 💡 Idea: ogni nuovo concetto nasce dalla necessità di **estendere** il precedente
 
 > 🎯 Obiettivo: comprendere come i matematici classificano i numeri attraverso gli **insiemi numerici**.
@@ -59,23 +110,6 @@ $$B = \lbrace2,3,1\rbrace $$
 
 > 🤔 Domanda: questi due insiemi sono uguali ( $B = A$ )? 
 
-# 📌 Equivalenza (Opzionale)
-
-Consideriamo gli insiemi `A` e `B`
-
-$$A = \lbrace1,2,3\rbrace $$
-$$B = \lbrace1,4,9\rbrace $$
-
-> 🤔 Domanda: questi due insiemi sono equivalenti? ( $B \sim A$ )? 
-
-> 🤏 Definizione: due insiemi si dicono `equivalenti` se esiste una 
-> corrispondenza biunivoca fra i loro elementi.
-
-$$ A\sim B \iff \exists\ f:A\rightarrow B\ \mid \text{f sia biiettiva}$$
-
-In questo caso $f(x) = x^2$, visto che questa funzione esiste ed e' biiettiva
-possiamo dire che $A\sim B$
-
 # 📌 Cardinalita'
 
 > 🤏 Definizione: La `cardinalita'` di un insieme e' il numero di elementi che esso contiene
@@ -85,24 +119,6 @@ Per esempio la cardinalita' dell'insieme $A$ = \lbrace1,2,4\rbrace$ vale `3`; fo
 Mentre $|$ { ♥️, ♦️, ♠️, ♣️ } $| = 4$.
 
 > 🤔 Domanda: quanto vale $|\mathbb N|$ ?
-
-# 📌 Insiemi annidati
-
-Un elemento di un insieme puo' essere a sua volta un insieme; in questo caso si parla di insiemi annidati:
-
-$$A = \lbrace \lbrace 1 \rbrace, \lbrace 2, 3 \rbrace, \lbrace 4, \lbrace 5 \rbrace \rbrace \rbrace$$
-
-> 🤔 Domanda: quanto vale $| A |$ ?
-
-Gli elementi di A sono: `{1}` `{2,3}` `{4,{5}}`
-
-Quindi:
-
-$$ \lbrace1\rbrace\in A $$ $$ \lbrace2,3\rbrace\in A $$ $$ \lbrace4,\lbrace5\rbrace\rbrace\in A. $$
-
-Ma:
-
-$$1\not\in A$$
 
 # 📌 Definizione di insieme
 
@@ -205,29 +221,9 @@ $$
 
 ![](assets/004.svg)
 
-## 📚 Simmetria
-
-![](assets/006.png)
-
 ## 📚 Addizione e moltiplicazione
 
 > 🤔 Domanda: possiamo affermare che le proprieta' delle operazioni che valgono per l'insieme dei numeri naturali $\mathbb N$ valgono anche per l'insieme $\mathbb Z$ ma non vice versa? Perche'?
-
-## 📚 Numeri opposti
-
-Due numeri sono opposti se la loro somma è zero.
-
-$$
-(+5)+(-5)=0
-$$
-
-## 🚀 Esercizi
-
-1. Ordina: $$-2,\;4,\;-7,\;1$$
-2. Calcola $$-6+9$$
-3. Trova l'opposto di $$13$$
-
-> 💡 Idea: ora possiamo parlare della distanza da zero.
 
 ## 📚 Valore assoluto
 
