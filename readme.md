@@ -16,23 +16,23 @@
 
 ## Syllabus
 
-1. I numeri naturali, interi, razionali e reali
+1. Insiemi numerici
     * Le operazioni con i numeri naturali, interi, razionali
     * Proprietà delle potenze
-2. I polinomi
+2. Polinomi
     * Addizione, sottrazione, moltiplicazione di polinomi
     * Prodotti notevoli: quadrato di binomio, somma per differenza, quadrato di trinomio, cubo di binomio
     * Scomposizione in fattori mediante raccoglimento totale e parziale, prodotti notevoli, trinomio particolare (solo caso 1)
-3. Le equazioni
+3. Equazioni
     * Risoluzione equazioni lineari
     * Equazioni determinate, indeterminate, impossibili
     * Formule inverse
-4. Le frazioni algebriche
+4. Frazioni algebriche
     * Definizione e condizioni di esistenza
     * Semplificazione
     * Operazioni
     * Risoluzione di equazioni fratte
-5. La geometria del piano
+5. Geometria del piano
     * Mediane, altezze, bisettrici, assi
     * Teorema di Pitagora
     * Definizione e caratteristiche di parallelogrammi, rombi, rettangoli, quadrati, trapezi
